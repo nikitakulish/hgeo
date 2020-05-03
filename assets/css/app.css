@@ -10358,6 +10358,7 @@ body.modal-open {
   height: 612px;
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, white), color-stop(50%, #FAFAFA));
   background: linear-gradient(90deg, white 50%, #FAFAFA 50%);
+  overflow: hidden;
 }
 
 .banner .bg-block {
@@ -10485,7 +10486,6 @@ body.modal-open {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
-  overflow: hidden;
 }
 
 .banner .col-6:last-child:before {
