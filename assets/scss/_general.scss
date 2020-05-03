@@ -1,0 +1,47 @@
+// General Style
+
+@font-face {
+  font-family: BioSansRegular;
+  src: url("../../assets/fonts/Flat-it-BioSans-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: BioSansSemiBold;
+  src: url("../../assets/fonts/Flat-it-BioSans-SemiBold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+
+// MAIN STYLES
+//==================================================
+
+body {
+  &.modal-open {
+    padding: 0 !important;
+    overflow: auto !important;
+  }
+}
+
+.container {
+  padding-right: 50px;
+  padding-left: 0;
+}
+
+.section-sub-title {
+  font-size: 16px;
+  font-family: 'BioSansRegular', serif;
+  color: $main-green;
+  text-transform: uppercase;
+  padding-left: 40px;
+}
+
+.section-title {
+  font-size: 30px;
+  font-family: 'BioSansSemiBold', serif;
+  color: $main-font;
+  padding-left: 40px;
+}
