@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d6be439-e9e9-4444-9b6a-ab2755f79eac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="271" selection-start-line="271" selection-end-line="271" />
+            <state relative-caret-position="786">
+              <caret line="1175" column="9" selection-start-line="1175" selection-start-column="9" selection-end-line="1175" selection-end-column="9" />
               <folding>
                 <element signature="e#2693#3368#0" />
                 <element signature="e#3387#3782#0" />
@@ -76,14 +76,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-625">
-              <caret line="77" column="38" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="38" />
+            <state relative-caret-position="453">
+              <caret line="405" column="20" selection-start-line="405" selection-start-column="20" selection-end-line="405" selection-end-column="20" />
               <folding>
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -121,9 +122,9 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/assets/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/../../360/gd360/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/assets/scss/_general.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
       </list>
     </option>
@@ -211,12 +212,12 @@
       <option name="presentableId" value="Default" />
       <updated>1588408203125</updated>
       <workItem from="1588408204241" duration="14222000" />
-      <workItem from="1588488460712" duration="24494000" />
+      <workItem from="1588488460712" duration="24676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38716000" />
+    <option name="totallyTimeSpent" value="38898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="23" width="2479" height="1417" extended-state="6" />
@@ -372,22 +373,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-625">
-          <caret line="77" column="38" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="38" />
+        <state relative-caret-position="453">
+          <caret line="405" column="20" selection-start-line="405" selection-start-column="20" selection-end-line="405" selection-end-column="20" />
           <folding>
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="271" selection-start-line="271" selection-end-line="271" />
+        <state relative-caret-position="786">
+          <caret line="1175" column="9" selection-start-line="1175" selection-start-column="9" selection-end-line="1175" selection-end-column="9" />
           <folding>
             <element signature="e#2693#3368#0" />
             <element signature="e#3387#3782#0" />

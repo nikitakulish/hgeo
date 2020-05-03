@@ -11416,6 +11416,19 @@ body.modal-open {
   z-index: -1;
 }
 
+.modal-project .modal-dialog .modal-content .modal-body .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  opacity: 1;
+}
+
+.modal-project .modal-dialog .modal-content .modal-body .close img {
+  width: 35px;
+  height: 35px;
+}
+
 .modal-project.show .modal-content {
   -webkit-transform: scale(1);
           transform: scale(1);
