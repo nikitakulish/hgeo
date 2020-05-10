@@ -10191,7 +10191,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body.modal-open {
   padding: 0 !important;
-  overflow: auto !important;
+  overflow: hidden !important;
 }
 
 * {
@@ -10260,45 +10260,26 @@ body.modal-open {
 }
 
 .header-menu .menu-block .menu .link {
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: flex;
-  min-width: 75px;
   height: 72px;
   float: left;
-  margin-left: 60px;
+  margin-left: 65px;
 }
 
 .header-menu .menu-block .menu .link a {
   position: relative;
   display: block;
+  font-size: 16px;
   color: #161819;
+  line-height: 72px;
   font-family: 'BioSansRegular', serif;
   text-align: center;
   text-decoration: none;
-}
-
-.header-menu .menu-block .menu .link a:after {
-  width: 0;
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 0;
-  height: 2px;
-  background-color: #0BB944;
-  -webkit-transition: 0.2s all ease-in;
-  transition: 0.2s all ease-in;
+  -webkit-transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out;
 }
 
 .header-menu .menu-block .menu .link:hover a {
-  font-family: 'BioSansSemiBold', serif;
-}
-
-.header-menu .menu-block .menu .link:hover a:after {
-  width: 100%;
+  color: #727374;
 }
 
 .header-menu .menu-block .menu .phone-link {
@@ -10311,14 +10292,22 @@ body.modal-open {
   display: block;
   color: #161819;
   text-align: center;
+  font-size: 16px;
+  font-family: 'BioSansRegular', serif;
   line-height: 72px;
   text-decoration: none;
+  -webkit-transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out;
 }
 
 .header-menu .menu-block .menu .phone-link a img {
   width: 29px;
   height: 29px;
   margin-right: 5px;
+}
+
+.header-menu .menu-block .menu .phone-link:hover a {
+  color: #727374;
 }
 
 .header-menu .menu-block .menu .lang {
@@ -10331,6 +10320,8 @@ body.modal-open {
   position: relative;
   display: block;
   color: #5A616A;
+  font-family: 'BioSansRegular', serif;
+  font-size: 16px;
   text-align: center;
   line-height: 20px;
   margin-top: 26px;
@@ -10341,7 +10332,7 @@ body.modal-open {
 
 .header-menu .menu-block .menu .lang a img {
   margin-left: 2px;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .header-menu .menu-block .lang-block {
@@ -10607,8 +10598,8 @@ body.modal-open {
   font-family: 'BioSansSemiBold', serif;
   padding-bottom: 2px;
   text-decoration: none;
-  -webkit-transition: 0s display;
-  transition: 0s display;
+  -webkit-transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out;
   visibility: hidden;
 }
 
@@ -10620,6 +10611,10 @@ body.modal-open {
   width: 100%;
   height: 2px;
   background-color: #0BB944;
+}
+
+.offers .offer-item a:hover {
+  color: #696969;
 }
 
 .offers .offer-item.pad-s h4 {
@@ -10722,6 +10717,8 @@ body.modal-open {
   font-family: 'BioSansSemiBold', serif;
   padding-bottom: 2px;
   text-decoration: none;
+  -webkit-transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out;
 }
 
 .projects .info .actions a:after {
@@ -10732,6 +10729,10 @@ body.modal-open {
   width: 100%;
   height: 2px;
   background-color: #0BB944;
+}
+
+.projects .info .actions a:hover {
+  color: #696969;
 }
 
 .projects .info .actions .gallery-navigation {
@@ -11202,6 +11203,7 @@ body.modal-open {
 .modal-offer .modal-dialog .modal-content {
   border-radius: 0;
   border: none !important;
+  box-shadow: 0px 3px 25px #00000034;
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
   -webkit-transition: 0.4s all ease-out;
@@ -11281,6 +11283,8 @@ body.modal-open {
   padding-bottom: 2px;
   text-decoration: none;
   margin-top: 50px;
+  -webkit-transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out;
 }
 
 .modal-offer .modal-dialog .modal-content .modal-body .info a:after {
@@ -11291,6 +11295,10 @@ body.modal-open {
   width: 100%;
   height: 2px;
   background-color: #0BB944;
+}
+
+.modal-offer .modal-dialog .modal-content .modal-body .info a:hover {
+  color: #696969;
 }
 
 .modal-offer .modal-dialog .modal-content .modal-body .side .bg {
@@ -11346,6 +11354,7 @@ body.modal-open {
 .modal-project .modal-dialog .modal-content {
   border-radius: 0;
   border: none !important;
+  box-shadow: 0px 3px 25px #00000034;
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
   -webkit-transition: 0.4s all ease-out;
@@ -11494,6 +11503,78 @@ body.modal-open {
 }
 
 .modal-project.show .modal-content {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.modal-reference .modal-dialog {
+  max-width: 990px;
+}
+
+.modal-reference .modal-dialog .modal-content {
+  border-radius: 0;
+  border: none !important;
+  box-shadow: 0px 3px 25px #00000034;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: 0.4s all ease-out;
+  transition: 0.4s all ease-out;
+}
+
+.modal-reference .modal-dialog .modal-content .modal-body {
+  position: relative;
+  min-height: 300px;
+  max-height: 700px;
+  padding: 0;
+}
+
+.modal-reference .modal-dialog .modal-content .modal-body .attachment-wrapper {
+  width: calc(100% - 35px);
+  min-height: 300px;
+  max-height: 700px;
+  overflow-y: scroll;
+}
+
+.modal-reference .modal-dialog .modal-content .modal-body .attachment-wrapper .attachment {
+  width: 100%;
+}
+
+.modal-reference .modal-dialog .modal-content .modal-body .side-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 35px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.modal-reference .modal-dialog .modal-content .modal-body .side-close .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  opacity: 1;
+}
+
+.modal-reference .modal-dialog .modal-content .modal-body .side-close .close img {
+  width: 35px;
+  height: 35px;
+}
+
+.modal-reference .modal-dialog .modal-content .modal-body .side-close:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(../img/pattern-bg-white.png);
+  background-position: -50px;
+}
+
+.modal-reference.show .modal-content {
   -webkit-transform: scale(1);
           transform: scale(1);
 }

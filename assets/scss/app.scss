@@ -48,41 +48,25 @@
       float: right;
 
       .link {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        min-width: 75px;
         height: 72px;
         float: left;
-        margin-left: 60px;
+        margin-left: 65px;
 
         a {
           position: relative;
           display: block;
+          font-size: 16px;
           color: $main-font;
+          line-height: 72px;
           font-family: 'BioSansRegular', serif;
           text-align: center;
           text-decoration: none;
-
-          &:after {
-            width: 0;
-            content: '';
-            display: block;
-            position: absolute;
-            bottom: 0;
-            height: 2px;
-            background-color: $main-green;
-            transition: 0.2s all ease-in;
-          }
+          transition: 0.2s all ease-out;
         }
 
         &:hover {
           a {
-            font-family: 'BioSansSemiBold', serif;
-
-            &:after {
-              width: 100%;
-            }
+            color: $menu-hover;
           }
         }
       }
@@ -96,13 +80,22 @@
           display: block;
           color: $main-font;
           text-align: center;
+          font-size: 16px;
+          font-family: 'BioSansRegular', serif;
           line-height: 72px;
           text-decoration: none;
+          transition: 0.2s all ease-out;
 
           img {
             width: 29px;
             height: 29px;
             margin-right: 5px;
+          }
+        }
+
+        &:hover {
+          a {
+            color: $menu-hover;
           }
         }
       }
@@ -116,6 +109,8 @@
           position: relative;
           display: block;
           color: $sub-font;
+          font-family: 'BioSansRegular', serif;
+          font-size: 16px;
           text-align: center;
           line-height: 20px;
           margin-top: 26px;
@@ -125,7 +120,7 @@
 
           img {
             margin-left: 2px;
-            margin-bottom: 5px;
+            margin-bottom: 3px;
           }
         }
       }
@@ -383,7 +378,7 @@
       font-family: 'BioSansSemiBold', serif;
       padding-bottom: 2px;
       text-decoration: none;
-      transition: 0s display;
+      transition: 0.2s all ease-out;
       visibility: hidden;
 
       &:after {
@@ -394,6 +389,10 @@
         width: 100%;
         height: 2px;
         background-color: $main-green;
+      }
+
+      &:hover {
+        color: $link-hover;
       }
     }
 
@@ -501,6 +500,7 @@
         font-family: 'BioSansSemiBold', serif;
         padding-bottom: 2px;
         text-decoration: none;
+        transition: 0.2s all ease-out;
 
         &:after {
           content: '';
@@ -510,6 +510,10 @@
           width: 100%;
           height: 2px;
           background-color: $main-green;
+        }
+
+        &:hover {
+          color: $link-hover;
         }
       }
 
@@ -564,6 +568,7 @@
     a {
       display: block;
       height: 100%;
+
       img {
         height: 100%;
         max-height: 350px;
@@ -962,6 +967,7 @@
     .modal-content {
       border-radius: 0;
       border: none !important;
+      box-shadow: 0px 3px 25px #00000034;
       transform: scale(0.9);
       transition: 0.4s all ease-out;
 
@@ -1031,6 +1037,7 @@
             padding-bottom: 2px;
             text-decoration: none;
             margin-top: 50px;
+            transition: 0.2s all ease-out;
 
             &:after {
               content: '';
@@ -1040,6 +1047,10 @@
               width: 100%;
               height: 2px;
               background-color: $main-green;
+            }
+
+            &:hover {
+              color: $link-hover;
             }
           }
         }
@@ -1103,6 +1114,7 @@
     .modal-content {
       border-radius: 0;
       border: none !important;
+      box-shadow: 0px 3px 25px #00000034;
       transform: scale(0.9);
       transition: 0.4s all ease-out;
 
@@ -1227,6 +1239,79 @@
           img {
             width: 35px;
             height: 35px;
+          }
+        }
+      }
+    }
+  }
+
+  &.show {
+    .modal-content {
+      transform: scale(1);
+    }
+  }
+}
+
+.modal-reference {
+  .modal-dialog {
+    max-width: 990px;
+
+    .modal-content {
+      border-radius: 0;
+      border: none !important;
+      box-shadow: 0px 3px 25px #00000034;
+      transform: scale(0.9);
+      transition: 0.4s all ease-out;
+
+      .modal-body {
+        position: relative;
+        min-height: 300px;
+        max-height: 700px;
+        padding: 0;
+
+        .attachment-wrapper {
+          width: calc(100% - 35px);
+          min-height: 300px;
+          max-height: 700px;
+          overflow-y: scroll;
+
+          .attachment {
+            width: 100%;
+          }
+        }
+
+        .side-close {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          width: 35px;
+          height: 100%;
+          overflow: hidden;
+
+          .close {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 2;
+            opacity: 1;
+
+            img {
+              width: 35px;
+              height: 35px;
+            }
+          }
+
+          &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url(../img/pattern-bg-white.png);
+            background-position: -50px;
           }
         }
       }

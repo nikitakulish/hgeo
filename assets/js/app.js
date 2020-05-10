@@ -9,6 +9,8 @@ var app = {
     }
 };
 
+var currentProjectSlide = 1;
+
 function initMap() {
     mapboxgl.accessToken = 'pk.eyJ1IjoibmlraXRha3VsaXNoIiwiYSI6ImNrOXI3NDM4MjByYmozZ21lcTlheHF3aWYifQ.f3K1k5ougE1FGvCE5BXRDw';
     var map = new mapboxgl.Map({
@@ -110,6 +112,7 @@ function startProjectsSlider() {
         draggable: false,
         swipe: false
     });
+
     $('.projects-slider').slick({
         infinite: true,
         slidesToShow: 1,
@@ -167,7 +170,7 @@ function startProjectsSlider() {
 
 $("document").ready(function () {
     app.init();
-    initMap();
+    // initMap();
     checkWidth();
     $(window).resize(checkWidth);
 
@@ -196,5 +199,12 @@ $("document").ready(function () {
         }
     });
 
+    $('#openReference').on('click', function (event) {
+        event.preventDefault();
+        event.stopPropagation();
 
+        var currentSlideIndex = $('.info-slider').slick('slickCurrentSlide') + 1;
+
+        $('#modalReference' + currentSlideIndex).modal('show');
+    })
 });
