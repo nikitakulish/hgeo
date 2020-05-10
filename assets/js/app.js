@@ -266,7 +266,15 @@ function startProjectsSlider() {
                 centerPadding: '60px',
                 accessibility: false,
                 draggable: false,
-                swipe: false
+                swipe: false,
+                responsive: [
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            vertical: false
+                        }
+                    },
+                ]
             });
 
             $(modalId + '.left-arrow-preview').click(function () {
