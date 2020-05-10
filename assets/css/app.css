@@ -10194,6 +10194,10 @@ body.modal-open {
   overflow: auto !important;
 }
 
+* {
+  outline: none !important;
+}
+
 .container {
   padding-right: 50px;
   padding-left: 0;
@@ -10220,14 +10224,19 @@ body.modal-open {
 }
 
 .header-menu .logo-block {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+          align-items: center;
   width: 35vw;
   height: 72px;
   background-color: #0D164D;
-  padding: 15px 30px 14px 0;
-  text-align: right;
 }
 
 .header-menu .logo-block img {
+  margin-right: 30px;
   height: 43px;
 }
 
@@ -10251,17 +10260,45 @@ body.modal-open {
 }
 
 .header-menu .menu-block .menu .link {
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: flex;
+  min-width: 75px;
   height: 72px;
   float: left;
   margin-left: 60px;
 }
 
 .header-menu .menu-block .menu .link a {
+  position: relative;
   display: block;
   color: #161819;
+  font-family: 'BioSansRegular', serif;
   text-align: center;
-  line-height: 72px;
   text-decoration: none;
+}
+
+.header-menu .menu-block .menu .link a:after {
+  width: 0;
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: #0BB944;
+  -webkit-transition: 0.2s all ease-in;
+  transition: 0.2s all ease-in;
+}
+
+.header-menu .menu-block .menu .link:hover a {
+  font-family: 'BioSansSemiBold', serif;
+}
+
+.header-menu .menu-block .menu .link:hover a:after {
+  width: 100%;
 }
 
 .header-menu .menu-block .menu .phone-link {
@@ -10365,19 +10402,27 @@ body.modal-open {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100%;
 }
 
 .banner .bg-block .top {
-  height: 458px;
+  position: relative;
+  height: 00%;
   background-color: #182156;
 }
 
-.banner .bg-block .top .banner-bg {
-  position: absolute;
-  width: 65vw;
+.banner .bg-block .top .banner-slider {
+  position: relative;
+  height: 00%;
+  margin: 0 0 0 auto;
+}
+
+.banner .bg-block .top .banner-slider .slide-item {
   height: 458px;
-  right: 0;
+}
+
+.banner .bg-block .top .banner-slider .slide-item img {
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: left;
@@ -10387,21 +10432,30 @@ body.modal-open {
 .banner .header-block {
   display: -webkit-box;
   display: flex;
-  -webkit-box-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
   height: 349px;
-  padding: 74px 76px 74px 46px;
+  padding: 74px 76px 60px 46px;
   background: rgba(24, 33, 86, 0.75) 0% 0% no-repeat padding-box;
 }
 
-.banner .header-block h1 {
+.banner .header-block .banner-quote {
+  height: 100%;
+}
+
+.banner .header-block .banner-quote .slide-item {
+  height: 100%;
+}
+
+.banner .header-block .banner-quote .slide-item h1 {
   font-family: 'BioSansSemiBold', serif;
   color: white;
   text-transform: uppercase;
   font-size: 36px;
+  height: 100%;
 }
 
 .banner .header-block .separator {
@@ -10409,13 +10463,14 @@ body.modal-open {
   width: 100%;
   height: 5px;
   background: rgba(11, 185, 68, 0.45) 0% 0% no-repeat padding-box;
-  margin-top: 38px;
 }
 
-.banner .header-block .separator:after {
-  content: '';
+.banner .header-block .separator .progress-status {
+  position: absolute;
   display: block;
-  width: 70%;
+  top: 0;
+  left: 0;
+  width: 0%;
   height: 5px;
   background-color: #0BB944;
 }
@@ -10657,7 +10712,6 @@ body.modal-open {
           justify-content: space-between;
   -webkit-box-align: center;
           align-items: center;
-  margin-top: 40px;
 }
 
 .projects .info .actions a {
@@ -10738,12 +10792,14 @@ body.modal-open {
   border-bottom: 6px solid #0BB944;
 }
 
-.projects .projects-slider img {
+.projects .projects-slider a {
+  display: block;
   height: 100%;
 }
 
-.projects .projects-slider .slick-arrow {
-  display: none !important;
+.projects .projects-slider a img {
+  height: 100%;
+  max-height: 350px;
 }
 
 .projects .col-6:first-child {
@@ -10753,6 +10809,10 @@ body.modal-open {
 .projects .col-6:last-child {
   padding-left: 0;
   background-color: #0D164D;
+}
+
+.projects .slick-arrow {
+  display: none !important;
 }
 
 .clients {
@@ -10782,12 +10842,7 @@ body.modal-open {
   margin-top: 21px;
 }
 
-.clients .clients-slider .client {
-  max-width: 200px;
-  height: 65px;
-}
-
-.clients .clients-slider .client a img {
+.clients .clients-slider .client img {
   width: 100%;
   height: 100%;
   -o-object-fit: contain;
@@ -10798,7 +10853,7 @@ body.modal-open {
   transition: 0.2s all ease-out;
 }
 
-.clients .clients-slider .client a:hover img {
+.clients .clients-slider .client:hover img {
   -webkit-filter: none;
           filter: none;
 }
@@ -11160,15 +11215,24 @@ body.modal-open {
           justify-content: space-between;
   -webkit-box-align: center;
           align-items: center;
-  min-height: 300px;
+  min-height: 350px;
   padding: 0;
 }
 
 .modal-offer .modal-dialog .modal-content .modal-body .info {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  height: 100%;
+  min-height: 350px;
   padding: 40px 350px 40px 40px;
 }
 
-.modal-offer .modal-dialog .modal-content .modal-body .info h2 {
+.modal-offer .modal-dialog .modal-content .modal-body .info .info-content h2 {
   font-size: 26px;
   font-family: 'BioSansSemiBold', serif;
   line-height: 32px;
@@ -11176,19 +11240,19 @@ body.modal-open {
   margin-bottom: 20px;
 }
 
-.modal-offer .modal-dialog .modal-content .modal-body .info p {
+.modal-offer .modal-dialog .modal-content .modal-body .info .info-content p {
   font-size: 14px;
   font-family: 'BioSansRegular', serif;
   line-height: 24px;
   color: #5A616A;
 }
 
-.modal-offer .modal-dialog .modal-content .modal-body .info ul {
+.modal-offer .modal-dialog .modal-content .modal-body .info .info-content ul {
   list-style: none;
   padding: 0;
 }
 
-.modal-offer .modal-dialog .modal-content .modal-body .info ul li {
+.modal-offer .modal-dialog .modal-content .modal-body .info .info-content ul li {
   position: relative;
   font-size: 14px;
   font-family: 'BioSansRegular', serif;
@@ -11197,7 +11261,7 @@ body.modal-open {
   padding-left: 14px;
 }
 
-.modal-offer .modal-dialog .modal-content .modal-body .info ul li:before {
+.modal-offer .modal-dialog .modal-content .modal-body .info .info-content ul li:before {
   content: '';
   display: block;
   position: absolute;

@@ -17,13 +17,15 @@
   background-color: $main-dark;
 
   .logo-block {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     width: 35vw;
     height: 72px;
     background-color: $main-dark;
-    padding: 15px 30px 14px 0;
-    text-align: right;
 
     img {
+      margin-right: 30px;
       height: 43px;
     }
   }
@@ -46,16 +48,42 @@
       float: right;
 
       .link {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        min-width: 75px;
         height: 72px;
         float: left;
         margin-left: 60px;
 
         a {
+          position: relative;
           display: block;
           color: $main-font;
+          font-family: 'BioSansRegular', serif;
           text-align: center;
-          line-height: 72px;
           text-decoration: none;
+
+          &:after {
+            width: 0;
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            height: 2px;
+            background-color: $main-green;
+            transition: 0.2s all ease-in;
+          }
+        }
+
+        &:hover {
+          a {
+            font-family: 'BioSansSemiBold', serif;
+
+            &:after {
+              width: 100%;
+            }
+          }
         }
       }
 
@@ -154,56 +182,75 @@
 .banner {
   position: relative;
   height: 612px;
-  background: linear-gradient(90deg, white 50%,  $dark-bg 50%);
+  background: linear-gradient(90deg, white 50%, $dark-bg 50%);
   overflow: hidden;
 
   .bg-block {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 100%;
 
     .top {
-      height: 458px;
+      position: relative;
+      height: 00%;
       background-color: $sub-dark;
 
-      .banner-bg {
-        position: absolute;
-        width: 65vw;
-        height: 458px;
-        right: 0;
-        object-fit: cover;
-        object-position: left;
+      .banner-slider {
+        position: relative;
+        height: 00%;
+        margin: 0 0 0 auto;
+
+        .slide-item {
+          height: 458px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: left;
+          }
+        }
       }
     }
   }
 
   .header-block {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: column;
     height: 349px;
-    padding: 74px 76px 74px 46px;
+    padding: 74px 76px 60px 46px;
     background: rgba($sub-dark, 0.75) 0% 0% no-repeat padding-box;
 
-    h1 {
-      font-family: 'BioSansSemiBold', serif;
-      color: white;
-      text-transform: uppercase;
-      font-size: 36px;
+    .banner-quote {
+      height: 100%;
+
+      .slide-item {
+        height: 100%;
+
+        h1 {
+          font-family: 'BioSansSemiBold', serif;
+          color: white;
+          text-transform: uppercase;
+          font-size: 36px;
+          height: 100%;
+        }
+      }
     }
+
 
     .separator {
       position: relative;
       width: 100%;
       height: 5px;
       background: rgba($main-green, 0.45) 0% 0% no-repeat padding-box;
-      margin-top: 38px;
 
-      &:after {
-        content: '';
+      .progress-status {
+        position: absolute;
         display: block;
-        width: 70%;
+        top: 0;
+        left: 0;
+        width: 0%;
         height: 5px;
         background-color: $main-green;
       }
@@ -445,7 +492,6 @@
       height: 52px;
       justify-content: space-between;
       align-items: center;
-      margin-top: 40px;
 
       a {
         position: relative;
@@ -515,12 +561,13 @@
     border-right: 6px solid $main-green;
     border-bottom: 6px solid $main-green;
 
-    img {
+    a {
+      display: block;
       height: 100%;
-    }
-
-    .slick-arrow {
-      display: none !important;
+      img {
+        height: 100%;
+        max-height: 350px;
+      }
     }
   }
 
@@ -534,6 +581,10 @@
       background-color: $main-dark;
     }
   }
+
+  .slick-arrow {
+    display: none !important;
+  }
 }
 
 
@@ -542,6 +593,7 @@
 
 .clients {
   position: relative;
+
   &:before {
     content: '';
     display: block;
@@ -565,22 +617,17 @@
     margin-top: 21px;
 
     .client {
-      max-width: 200px;
-      height: 65px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        filter: grayscale(100%) opacity(50%);
+        transition: 0.2s all ease-out;
+      }
 
-      a {
+      &:hover {
         img {
-          width: 100%;
-          height: 100%;
-          object-fit: contain;
-          filter: grayscale(100%) opacity(50%);
-          transition: 0.2s all ease-out;
-        }
-
-        &:hover {
-          img {
-            filter: none;
-          }
+          filter: none;
         }
       }
     }
@@ -922,48 +969,55 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        min-height: 300px;
+        min-height: 350px;
         padding: 0;
 
         .info {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          height: 100%;
+          min-height: 350px;
           padding: 40px 350px 40px 40px;
 
-          h2 {
-            font-size: 26px;
-            font-family: 'BioSansSemiBold', serif;
-            line-height: 32px;
-            color: $main-font;
-            margin-bottom: 20px;
-          }
+          .info-content {
+            h2 {
+              font-size: 26px;
+              font-family: 'BioSansSemiBold', serif;
+              line-height: 32px;
+              color: $main-font;
+              margin-bottom: 20px;
+            }
 
-          p {
-            font-size: 14px;
-            font-family: 'BioSansRegular', serif;
-            line-height: 24px;
-            color: $sub-font;
-          }
-
-          ul {
-            list-style: none;
-            padding: 0;
-
-            li {
-              position: relative;
+            p {
               font-size: 14px;
               font-family: 'BioSansRegular', serif;
-              color: $sub-font;
               line-height: 24px;
-              padding-left: 14px;
+              color: $sub-font;
+            }
 
-              &:before {
-                content: '';
-                display: block;
-                position: absolute;
-                width: 5px;
-                height: 5px;
-                left: 0;
-                top: 10px;
-                background-color: $main-green;
+            ul {
+              list-style: none;
+              padding: 0;
+
+              li {
+                position: relative;
+                font-size: 14px;
+                font-family: 'BioSansRegular', serif;
+                color: $sub-font;
+                line-height: 24px;
+                padding-left: 14px;
+
+                &:before {
+                  content: '';
+                  display: block;
+                  position: absolute;
+                  width: 5px;
+                  height: 5px;
+                  left: 0;
+                  top: 10px;
+                  background-color: $main-green;
+                }
               }
             }
           }
@@ -1139,6 +1193,7 @@
             .slick-slide {
               margin: 3px 0;
             }
+
             .slick-list {
               margin: -3px 0;
             }
