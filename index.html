@@ -16,9 +16,33 @@
     <!-- build:css -->
     <link href="assets/css/app.css" rel="stylesheet"/>
     <!-- endbuild -->
+
+    <style>
+        .loader-wrapper {
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: white;
+            z-index: 9;
+        }
+        .loader-wrapper img {
+            width: 100px;
+        }
+    </style>
 </head>
 
 <body>
+
+<div class="loader-wrapper">
+    <img src="assets/img/loader.gif" alt="">
+</div>
 
 <div id="home" class="section header-menu">
     <div class="logo-block">
@@ -50,7 +74,7 @@
         <div class="top">
             <div class="banner-slider">
                 <div class="slide-item">
-                    <img src="assets/img/banners/slide-pic-1.jpg" loading="lazy" alt="">
+                    <img src="assets/img/banners/slide-pic-1.jpg" alt="">
                 </div>
                 <div class="slide-item">
                     <img src="assets/img/banners/slide-pic-2.jpg" loading="lazy" alt="">
@@ -322,21 +346,36 @@
             </div>
             <div class="col-6">
                 <div class="projects-slider">
-                    <a href="#" data-toggle="modal" data-target="#modalProject1"><img src="assets/img/projects/01-1.jpg" loading="lazy" alt=""></a>
-                    <a href="#" data-toggle="modal" data-target="#modalProject2"><img src="assets/img/projects/02-1.jpg" loading="lazy" alt=""></a>
-                    <a href="#" data-toggle="modal" data-target="#modalProject3"><img src="assets/img/projects/03-1.jpg" loading="lazy" alt=""></a>
-                    <a href="#" data-toggle="modal" data-target="#modalProject4"><img src="assets/img/gal-pic-1.jpg" loading="lazy" alt=""></a>
-                    <a href="#" data-toggle="modal" data-target="#modalProject5"><img src="assets/img/gal-pic-1.jpg" loading="lazy" alt=""></a>
-                    <a href="#" data-toggle="modal" data-target="#modalProject6"><img src="assets/img/gal-pic-1.jpg" loading="lazy" alt=""></a>
-                    <a href="#" data-toggle="modal" data-target="#modalProject7"><img src="assets/img/gal-pic-1.jpg" loading="lazy" alt=""></a>
-                    <a href="#" data-toggle="modal" data-target="#modalProject8"><img src="assets/img/gal-pic-1.jpg" loading="lazy" alt=""></a>
-                    <a href="#" data-toggle="modal" data-target="#modalProject9"><img src="assets/img/gal-pic-1.jpg" loading="lazy" alt=""></a>
-                    <a href="#" data-toggle="modal" data-target="#modalProject10"><img src="assets/img/gal-pic-1.jpg" loading="lazy" alt=""></a>
-                    <a href="#" data-toggle="modal" data-target="#modalProject11"><img src="assets/img/gal-pic-1.jpg" loading="lazy" alt=""></a>
-                    <a href="#" data-toggle="modal" data-target="#modalProject12"><img src="assets/img/gal-pic-1.jpg" loading="lazy" alt=""></a>
-                    <a href="#" data-toggle="modal" data-target="#modalProject13"><img src="assets/img/gal-pic-1.jpg" loading="lazy" alt=""></a>
-                    <a href="#" data-toggle="modal" data-target="#modalProject14"><img src="assets/img/gal-pic-1.jpg" loading="lazy" alt=""></a>
-                    <a href="#" data-toggle="modal" data-target="#modalProject15"><img src="assets/img/gal-pic-1.jpg" loading="lazy" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#modalProject1"><img src="assets/img/projects/01-1.jpg"
+                                                                                      loading="lazy" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#modalProject2"><img src="assets/img/projects/02-1.jpg"
+                                                                                      loading="lazy" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#modalProject3"><img src="assets/img/projects/03-1.jpg"
+                                                                                      loading="lazy" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#modalProject4"><img src="assets/img/gal-pic-1.jpg"
+                                                                                      loading="lazy" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#modalProject5"><img src="assets/img/gal-pic-1.jpg"
+                                                                                      loading="lazy" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#modalProject6"><img src="assets/img/gal-pic-1.jpg"
+                                                                                      loading="lazy" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#modalProject7"><img src="assets/img/gal-pic-1.jpg"
+                                                                                      loading="lazy" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#modalProject8"><img src="assets/img/gal-pic-1.jpg"
+                                                                                      loading="lazy" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#modalProject9"><img src="assets/img/gal-pic-1.jpg"
+                                                                                      loading="lazy" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#modalProject10"><img src="assets/img/gal-pic-1.jpg"
+                                                                                       loading="lazy" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#modalProject11"><img src="assets/img/gal-pic-1.jpg"
+                                                                                       loading="lazy" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#modalProject12"><img src="assets/img/gal-pic-1.jpg"
+                                                                                       loading="lazy" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#modalProject13"><img src="assets/img/gal-pic-1.jpg"
+                                                                                       loading="lazy" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#modalProject14"><img src="assets/img/gal-pic-1.jpg"
+                                                                                       loading="lazy" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#modalProject15"><img src="assets/img/gal-pic-1.jpg"
+                                                                                       loading="lazy" alt=""></a>
                 </div>
             </div>
         </div>
@@ -1679,7 +1718,8 @@
 <script src="assets/js/vendor/bootstrap.min.js"></script>
 <script src="assets/js/slick.min.js"></script>
 <!--<script src="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js"></script>-->
-<script src="//maps.googleapis.com/maps/api/js?region=PL&amp;key=AIzaSyC4E7we2d2Emb_le7XWw_aHGPOaTJiPCHU&callback=initMap" async defer></script>
+<script src="//maps.googleapis.com/maps/api/js?region=PL&amp;key=AIzaSyC4E7we2d2Emb_le7XWw_aHGPOaTJiPCHU&callback=initMap"
+        async defer></script>
 <!-- build:js -->
 <script src="assets/js/app.js"></script>
 <!-- endbuild -->

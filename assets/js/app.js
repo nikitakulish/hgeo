@@ -275,10 +275,10 @@ $("document").ready(function () {
     app.init();
     checkWidth();
     $(window).resize(checkWidth);
-
     startBannerSlider();
     startClientsSlider();
     startProjectsSlider();
+    $('.loader-wrapper').hide();
 
     $(".link a, .to-top").bind('click', function (event) {
         var $anchor = $(this);
