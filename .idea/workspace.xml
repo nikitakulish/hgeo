@@ -2,53 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d6be439-e9e9-4444-9b6a-ab2755f79eac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/2528981.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/2658087.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/klient-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/klient-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/klient-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/klient-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/klient-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/klient-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/klient-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/klient-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/klient-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/klient-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/klient-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/klient-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/klient-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/klient-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/klient-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/offers/pic-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/offers/pic-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/offers/pic-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/offers/pic-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/offers/pic-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/offers/pic-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/projects/01-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/projects/01-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/projects/01-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/projects/01-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/projects/02-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/projects/02-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/projects/02-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/projects/02-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/projects/03-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/projects/03-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/projects/03-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/projects/03-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/banners/slide-pic-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/banners/slide-pic-3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/clients/client1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/clients/client2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/clients/client3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/clients/client4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/clients/client5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_general.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/app.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/2528981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/2658087.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/slid-pic-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/banners/slide-pic-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/surveying-4204856_1920.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="167">
@@ -109,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="699" lean-forward="true" selection-start-line="699" selection-end-line="699" />
+            <state relative-caret-position="136">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
@@ -176,6 +136,8 @@
       <find>modalProject1</find>
       <find>projects</find>
       <find>right-arrow-preview</find>
+      <find>offerta-</find>
+      <find>oferta_pic_1.svg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -189,8 +151,8 @@
         <option value="$PROJECT_DIR$/../../360/gd360/index.html" />
         <option value="$PROJECT_DIR$/assets/scss/_general.scss" />
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -234,7 +196,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -243,13 +205,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/assets/img/banners" />
       <recent name="$PROJECT_DIR$/assets/img/projects" />
       <recent name="$PROJECT_DIR$/assets/img/clients" />
       <recent name="$PROJECT_DIR$/assets/img/offers" />
-      <recent name="$PROJECT_DIR$/assets/img" />
-      <recent name="$PROJECT_DIR$/assets/img/logo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/banners" />
       <recent name="$PROJECT_DIR$/assets/img/logo" />
       <recent name="$PROJECT_DIR$/assets/css" />
     </key>
@@ -279,18 +242,18 @@
       <workItem from="1588408204241" duration="14222000" />
       <workItem from="1588488460712" duration="24720000" />
       <workItem from="1588573808943" duration="721000" />
-      <workItem from="1589050958414" duration="14437000" />
+      <workItem from="1589050958414" duration="15195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54100000" />
+    <option name="totallyTimeSpent" value="54858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="23" width="2479" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25585216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25585216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -306,7 +269,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32981133" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2618868" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2618868" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -336,9 +299,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/fonts/font-awesome/css/all.css" />
     <entry file="file://$PROJECT_DIR$/assets/fonts/font-awesome/js/v4-shims.js" />
-    <entry file="file://$PROJECT_DIR$/assets/img/oferta_pic_1.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/arrow_next.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -445,10 +405,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/surveying-4204856_1920.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/oferta_pic_1.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="699" lean-forward="true" selection-start-line="699" selection-end-line="699" />
+        <state relative-caret-position="136">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
@@ -477,13 +450,6 @@
             <element signature="n#div#29;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#30;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
         </state>
       </provider>
     </entry>
