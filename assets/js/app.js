@@ -9,40 +9,143 @@ var app = {
     }
 };
 
-var currentProjectSlide = 1;
-
 function initMap() {
-    mapboxgl.accessToken = 'pk.eyJ1IjoibmlraXRha3VsaXNoIiwiYSI6ImNrOXI3NDM4MjByYmozZ21lcTlheHF3aWYifQ.f3K1k5ougE1FGvCE5BXRDw';
-    var map = new mapboxgl.Map({
-        container: 'map',
-        center: [20.481979, 53.739020],
-        zoom: 15,
-        style: 'mapbox://styles/mapbox/light-v10'
-    });
+    var mapa1;
+    var lokalizacja;
+    var MY_MAPTYPE_ID = 'custom_style';
 
-    map.addControl(new mapboxgl.NavigationControl());
+    var mapLat = 53.738913;
+    var mapLng = 20.481662;
+    lokalizacja = new google.maps.LatLng(mapLat, mapLng);
 
-    var geojson = {
-        type: 'FeatureCollection',
-        features: [{
-            type: 'Feature',
-            geometry: {
-                type: 'Point',
-                coordinates: [20.481979, 53.739020]
-            }
-        }]
+    var isMobile = true;
+    if (window.matchMedia) {
+        isMobile = !window.matchMedia('(max-device-width: 600px)').matches;
+    }
+    var mapOptions = {                              // DEFINICJA PARAMETRÓW MAPY
+        center: lokalizacja,                    // ustalenie środka mapy
+        zoom: 15,                                    // ustalenie stopnia przybliżenia
+        panControl: false,                          // kontrolka kierunku mapy
+        zoomControl: false,                          // kontrolka przyblizenia
+        zoomControlOptions: {
+            style: google.maps.ZoomControlStyle.SMALL
+        },
+        mapTypeControl: false,                       // kontrolka typu mapy
+        scaleControl: false,                         // kontrolka widocznosci skali
+        streetViewControl: false,                   // kontrolka streetView
+        overviewMapControl: false,                  // kontrolka małej mapy w rogu
+        scrollwheel: false,                         // wyłączenie scrolowania mapy
+        draggable: isMobile,
+        mapTypeId: MY_MAPTYPE_ID,
+        mapTypeControlOptions: {
+            mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+        }
+        //mapTypeId:google.maps.MapTypeId.ROADMAP   // typ mapy do wyświetlenia
     };
 
-    geojson.features.forEach(function (marker) {
+    mapa1 = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
 
-        // create a HTML element for each feature
-        var el = document.createElement('div');
-        el.className = 'marker';
+    var styleOpts = [
+        {
+            "featureType": "landscape",
+            "stylers": [
+                {"saturation": -100},
+                {"lightness": 65},
+                {"visibility": "on"}
+            ]
+        },
+        {
+            "featureType": "poi",
+            "stylers": [
+                {"saturation": -100},
+                {"lightness": 51},
+                {"visibility": "simplified"}
+            ]
+        },
+        {
+            "featureType": "road.highway",
+            "stylers": [
+                {"saturation": -100},
+                {"visibility": "simplified"}
+            ]
+        },
+        {
+            "featureType": "road.arterial",
+            "stylers": [
+                {"saturation": -100},
+                {"lightness": 30},
+                {"visibility": "on"}
+            ]
+        },
+        {
+            "featureType": "road.local",
+            "stylers": [
+                {"saturation": -100},
+                {"lightness": 40},
+                {"visibility": "on"}
+            ]
+        },
+        {
+            "featureType": "transit",
+            "stylers": [
+                {"saturation": -100},
+                {"visibility": "simplified"}
+            ]
+        },
+        {
+            "featureType": "administrative.province",
+            "stylers": [
+                {"visibility": "off"}
+            ]
+        },
+        {
+            "featureType": "water",
+            "elementType": "labels",
+            "stylers": [
+                {"visibility": "on"},
+                {"lightness": -25},
+                {"saturation": -100}
+            ]
+        },
+        {
+            "featureType": "water",
+            "elementType": "geometry",
+            "stylers": [
+                {"hue": "#ffff00"},
+                {"lightness": -25},
+                {"saturation": -97}
+            ]
+        }
+    ];
 
-        // make a marker for each feature and add to the map
-        new mapboxgl.Marker(el)
-            .setLngLat(marker.geometry.coordinates)
-            .addTo(map);
+    var styledMapOptions = {
+        name: 'Skala szarości'
+    };
+    var customMapType = new google.maps.StyledMapType(styleOpts, styledMapOptions);
+    mapa1.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+
+
+    // DODATKOWE ELEMENTY NA MAPIE
+    var iconBase = {
+        url: "../assets/img/pin.png", // url
+        scaledSize: new google.maps.Size(50, 50),
+    };
+    var marker = new google.maps.Marker({           // DODAWANIE MARKERA
+        position: lokalizacja,
+        map: mapa1,
+        title: escape("Lokalizacja"),
+        draggable: false, // true                              // możliwość przenoszenia markera
+        icon: iconBase
+    });
+
+    var infowindow = new google.maps.InfoWindow({   // DODANIE CHMURKI PRZY MARKERZE
+        content: "HORYZONT GEODEZJA KAMIL RYNKOWSKI",
+        escape: true
+    });
+
+    // EVENT LISTENERS
+    google.maps.event.addListener(marker, 'click', function () { // DODANIE KLIKNIECIA NA MARKER
+        infowindow.open(mapa1, marker);
     });
 }
 
@@ -170,7 +273,6 @@ function startProjectsSlider() {
 
 $("document").ready(function () {
     app.init();
-    // initMap();
     checkWidth();
     $(window).resize(checkWidth);
 
