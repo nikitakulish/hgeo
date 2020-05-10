@@ -202,7 +202,16 @@ function startClientsSlider() {
         dots: true,
         autoplay: true,
         autoplaySpeed: 3000,
-        accessibility: false
+        accessibility: false,
+        responsive: [
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+        ]
     });
 }
 
@@ -271,6 +280,10 @@ function startProjectsSlider() {
     });
 }
 
+$(window).on('load', function () {
+    $('.loader-wrapper').hide();
+});
+
 $("document").ready(function () {
     app.init();
     checkWidth();
@@ -278,7 +291,6 @@ $("document").ready(function () {
     startBannerSlider();
     startClientsSlider();
     startProjectsSlider();
-    $('.loader-wrapper').hide();
 
     $(".link a, .to-top").bind('click', function (event) {
         var $anchor = $(this);
