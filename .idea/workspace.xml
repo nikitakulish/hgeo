@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d6be439-e9e9-4444-9b6a-ab2755f79eac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/pin-map.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/app.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,14 +31,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="279" column="44" selection-start-line="279" selection-start-column="26" selection-end-line="279" selection-end-column="44" />
+            <state relative-caret-position="804">
+              <caret line="282" selection-start-line="282" selection-end-line="282" />
               <folding>
                 <element signature="n#!!block;n#initMap#0" />
-                <element signature="e#2996#5139#0" />
                 <element signature="n#!!block;n#checkWidth#0" />
                 <element signature="n#!!block;n#startBannerSlider#0" />
                 <element signature="n#!!block;n#startClientsSlider#0" />
@@ -53,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/assets/scss/_general.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="50" selection-end-column="1" />
+              <caret line="37" selection-start-line="37" selection-end-line="50" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -67,28 +64,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="843">
-              <caret line="1841" column="35" selection-start-line="1841" selection-start-column="35" selection-end-line="1841" selection-end-column="35" />
+            <state relative-caret-position="674">
+              <caret line="1846" selection-start-line="1846" selection-end-line="1846" />
               <folding>
-                <element signature="e#6409#7971#0" />
-                <element signature="e#8055#8198#0" />
-                <element signature="e#8210#11272#0" />
-                <element signature="e#10781#11067#0" />
-                <element signature="e#11349#12396#0" />
-                <element signature="e#12468#13369#0" />
-                <element signature="e#13446#16543#0" />
-                <element signature="e#16611#16771#0" />
-                <element signature="e#16843#17717#0" />
-                <element signature="e#17797#21185#0" />
-                <element signature="e#21202#24516#0" />
-                <element signature="e#24535#25943#0" />
-                <element signature="e#26069#26075#0" />
-                <element signature="e#26539#27027#0" />
-                <element signature="e#28499#28513#0" />
-                <element signature="e#28350#28639#0" />
+                <element signature="e#17911#21299#0" />
+                <element signature="e#21316#24630#0" />
+                <element signature="e#24649#26057#0" />
+                <element signature="e#26175#26473#0" />
+                <element signature="e#26523#27959#0" />
+                <element signature="e#28486#29411#0" />
+                <element signature="e#29423#29988#0" />
+                <element signature="e#30008#30089#0" />
+                <element signature="e#30103#30953#0" />
+                <element signature="e#30966#31185#0" />
+                <element signature="e#31196#31356#0" />
+                <element signature="e#31369#32634#0" />
+                <element signature="e#32652#32915#0" />
+                <element signature="e#32932#32956#0" />
               </folding>
             </state>
           </provider>
@@ -97,18 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="511" column="42" selection-start-line="511" selection-start-column="42" selection-end-line="511" selection-end-column="42" />
-              <folding>
-                <element signature="e#2386#2963#0" />
-                <element signature="e#3867#4462#0" />
-                <element signature="e#3848#4277#0" />
-                <element signature="e#4575#7738#0" />
-                <element signature="e#7740#8070#0" />
-                <element signature="e#8072#21312#0" />
-                <element signature="e#21314#23252#0" />
-                <element signature="e#23254#23849#0" />
-              </folding>
+            <state relative-caret-position="514">
+              <caret line="501" column="45" selection-start-line="501" selection-start-column="32" selection-end-line="501" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -117,7 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>link</find>
       <find>proje</find>
       <find>ul {</find>
       <find>offer</find>
@@ -147,6 +131,7 @@
       <find>.quote {</find>
       <find>quote-block</find>
       <find>iconBase</find>
+      <find>actions-block</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;assets/img/gal-pic-1.jpg&quot; loading=&quot;lazy&quot; alt=&quot;&quot;</replace>
@@ -163,12 +148,12 @@
         <option value="$PROJECT_DIR$/assets/scss/_general.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
+        <option value="$PROJECT_DIR$/assets/js/app.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="81" />
     <option name="y" value="23" />
     <option name="width" value="2479" />
@@ -269,18 +254,20 @@
       <workItem from="1588573808943" duration="721000" />
       <workItem from="1589050958414" duration="15312000" />
       <workItem from="1589093735135" duration="4365000" />
-      <workItem from="1589108072974" duration="14840000" />
+      <workItem from="1589108072974" duration="14930000" />
+      <workItem from="1589180752762" duration="118000" />
+      <workItem from="1589263753530" duration="2217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74180000" />
+    <option name="totallyTimeSpent" value="76605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="23" width="2479" height="1417" extended-state="6" />
+    <frame x="81" y="23" width="2479" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25995892" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2644764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -408,6 +395,15 @@
     <entry file="file://$PROJECT_DIR$/assets/img/oferta_pic_1.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/assets/js/app.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/pin.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/pin-map.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -415,11 +411,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/assets/js/app.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/pin.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/assets/scss/_general.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="50" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -428,68 +425,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_general.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="50" selection-end-column="1" />
+        <state relative-caret-position="514">
+          <caret line="501" column="45" selection-start-line="501" selection-start-column="32" selection-end-line="501" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/pin-map.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="511" column="42" selection-start-line="511" selection-start-column="42" selection-end-line="511" selection-end-column="42" />
+        <state relative-caret-position="674">
+          <caret line="1846" selection-start-line="1846" selection-end-line="1846" />
           <folding>
-            <element signature="e#2386#2963#0" />
-            <element signature="e#3867#4462#0" />
-            <element signature="e#3848#4277#0" />
-            <element signature="e#4575#7738#0" />
-            <element signature="e#7740#8070#0" />
-            <element signature="e#8072#21312#0" />
-            <element signature="e#21314#23252#0" />
-            <element signature="e#23254#23849#0" />
+            <element signature="e#17911#21299#0" />
+            <element signature="e#21316#24630#0" />
+            <element signature="e#24649#26057#0" />
+            <element signature="e#26175#26473#0" />
+            <element signature="e#26523#27959#0" />
+            <element signature="e#28486#29411#0" />
+            <element signature="e#29423#29988#0" />
+            <element signature="e#30008#30089#0" />
+            <element signature="e#30103#30953#0" />
+            <element signature="e#30966#31185#0" />
+            <element signature="e#31196#31356#0" />
+            <element signature="e#31369#32634#0" />
+            <element signature="e#32652#32915#0" />
+            <element signature="e#32932#32956#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="279" column="44" selection-start-line="279" selection-start-column="26" selection-end-line="279" selection-end-column="44" />
+        <state relative-caret-position="804">
+          <caret line="282" selection-start-line="282" selection-end-line="282" />
           <folding>
             <element signature="n#!!block;n#initMap#0" />
-            <element signature="e#2996#5139#0" />
             <element signature="n#!!block;n#checkWidth#0" />
             <element signature="n#!!block;n#startBannerSlider#0" />
             <element signature="n#!!block;n#startClientsSlider#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="1841" column="35" selection-start-line="1841" selection-start-column="35" selection-end-line="1841" selection-end-column="35" />
-          <folding>
-            <element signature="e#6409#7971#0" />
-            <element signature="e#8055#8198#0" />
-            <element signature="e#8210#11272#0" />
-            <element signature="e#10781#11067#0" />
-            <element signature="e#11349#12396#0" />
-            <element signature="e#12468#13369#0" />
-            <element signature="e#13446#16543#0" />
-            <element signature="e#16611#16771#0" />
-            <element signature="e#16843#17717#0" />
-            <element signature="e#17797#21185#0" />
-            <element signature="e#21202#24516#0" />
-            <element signature="e#24535#25943#0" />
-            <element signature="e#26069#26075#0" />
-            <element signature="e#26539#27027#0" />
-            <element signature="e#28499#28513#0" />
-            <element signature="e#28350#28639#0" />
           </folding>
         </state>
       </provider>

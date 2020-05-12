@@ -879,6 +879,7 @@
           color: white;
           font-size: 16px;
           font-family: 'BioSansSemiBold', serif;
+          border: none;
 
           &:hover {
             background-color: $active-navigation-bg;
@@ -1746,24 +1747,42 @@
   }
 
   .modal {
-    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
 
     .modal-dialog {
+      position: fixed;
+      margin: 0;
       width: 100%;
       height: 100%;
-      margin: 0;
       padding: 0;
 
       .modal-content {
-        height: auto;
-        min-height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
         border-radius: 0;
+        box-shadow: none;
+        overflow-y: scroll;
+
+        .modal-body {
+          width: 100% !important;
+          min-height: auto !important;
+          align-items: flex-start !important;
+        }
       }
     }
 
     &.modal-offer {
       .info {
-        height: 100vh !important;
+        height: auto !important;
+        min-height: 100vh !important;
         padding: 75px 20px 40px 20px !important;
       }
 
@@ -1824,8 +1843,8 @@
         .slider-nav {
           width: 100% !important;
           height: 56px !important;
-          margin: 0;
-          margin-top: 8px !important;
+          margin: 8px 8px 0 8px !important;
+
           .slick-slide {
             height: 56px !important;
             margin: 0 5px !important;
@@ -1858,5 +1877,44 @@
 
   .section-title {
     font-size: 26px;
+  }
+}
+
+@media(max-width: 350px) {
+  .header-menu {
+    .logo-block {
+      padding: 0 10px;
+
+      img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+      }
+    }
+
+    .menu-block {
+      .menu {
+        .link {
+          display: none;
+        }
+
+        .lang {
+          margin: 0 0 0 8px;
+
+          a {
+            padding: 0 6px;
+            font-size: 14px;
+          }
+        }
+
+        .phone-link {
+          margin-left: 10px;
+
+          a {
+            font-size: 14px;
+          }
+        }
+      }
+    }
   }
 }

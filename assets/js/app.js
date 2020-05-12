@@ -255,7 +255,15 @@ function startProjectsSlider() {
                 slidesToScroll: 1,
                 vertical: true,
                 draggable: false,
-                swipe: false
+                swipe: false,
+                responsive: [
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            vertical: false,
+                        }
+                    },
+                ]
             });
             $(modalId + '.slider-nav').slick({
                 slidesToShow: 4,
@@ -271,7 +279,7 @@ function startProjectsSlider() {
                     {
                         breakpoint: 767,
                         settings: {
-                            vertical: false
+                            vertical: false,
                         }
                     },
                 ]
