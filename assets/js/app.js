@@ -9,7 +9,8 @@ var app = {
     }
 };
 
-function initMap() {
+function initMap(mapElement) {
+    mapElement = (typeof mapElement === 'undefined') ? 'googleMap' : mapElement;
     var mapa1;
     var lokalizacja;
     var MY_MAPTYPE_ID = 'custom_style';
@@ -43,7 +44,7 @@ function initMap() {
         //mapTypeId:google.maps.MapTypeId.ROADMAP   // typ mapy do wyświetlenia
     };
 
-    mapa1 = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
+    mapa1 = new google.maps.Map(document.getElementById(mapElement), mapOptions);
 
     var styleOpts = [
         {
@@ -336,5 +337,9 @@ $("document").ready(function () {
         var currentSlideIndex = $('.info-slider').slick('slickCurrentSlide') + 1;
 
         $('#modalReference' + currentSlideIndex).modal('show');
-    })
+    });
+
+    $('.modal-map').on('shown.bs.modal', function (e) {
+        initMap('googleMobileMap');
+    });
 });

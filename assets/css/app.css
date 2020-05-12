@@ -11840,7 +11840,7 @@ body.modal-open {
   .contact .container .company-info .company-address p {
     margin: 0;
   }
-  .contact .container .company-info .company-address a {
+  .contact .container .company-info .company-address .mobile-map {
     display: -webkit-box;
     display: flex;
     height: 37px;
@@ -11859,11 +11859,11 @@ body.modal-open {
     font-family: 'BioSansSemiBold', serif;
     text-decoration: none;
   }
-  .contact .container .company-info .company-address a img {
+  .contact .container .company-info .company-address .mobile-map img {
     width: 14px;
     margin-right: 5px;
   }
-  .contact .container .company-info .company-address a:hover {
+  .contact .container .company-info .company-address .mobile-map:hover {
     background-color: #48D15E;
   }
   .contact .container .company-info .company-data {
@@ -11930,6 +11930,13 @@ body.modal-open {
   .modal.modal-offer .side .close img {
     width: 55px !important;
     height: 55px !important;
+  }
+  .modal.modal-offer.modal-map .info {
+    padding: 0 !important;
+  }
+  .modal.modal-offer.modal-map .info #googleMobileMap {
+    width: 100vw;
+    height: 100vh;
   }
   .modal.modal-reference .attachment-wrapper {
     width: 100% !important;
@@ -12017,5 +12024,32 @@ body.modal-open {
   }
   .header-menu .menu-block .menu .phone-link a {
     font-size: 14px;
+  }
+  .contact .container .company-info .company-address {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-align: start;
+            align-items: flex-start;
+  }
+  .contact .container .company-info .company-address .mobile-map {
+    display: -webkit-box;
+    display: flex;
+    height: 37px;
+    padding: 0 8px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    background-color: #19B431;
+    box-shadow: 0px 3px 6px #00000029;
+    -webkit-transition: 0.2s all ease-in;
+    transition: 0.2s all ease-in;
+    color: white;
+    font-size: 16px;
+    font-family: 'BioSansSemiBold', serif;
+    text-decoration: none;
   }
 }
