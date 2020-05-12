@@ -154,7 +154,7 @@ function checkWidth() {
     var windowsize = $(window).width();
     var containersize = $('.container').width() + 100;
 
-    if (windowsize >= 992) {
+    if (windowsize >= 880) {
         var smallBlock = ((windowsize - containersize) / 2) + (containersize / 4);
         var bigBlock = ((windowsize - containersize) / 2) + (containersize / 4 * 3);
 

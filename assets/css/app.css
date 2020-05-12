@@ -10418,6 +10418,7 @@ body.modal-open {
      object-fit: cover;
   -o-object-position: left;
      object-position: left;
+  padding-left: 1px;
 }
 
 .banner .header-block {
@@ -11663,7 +11664,7 @@ body.modal-open {
 
 @media (max-width: 767px) {
   .container {
-    padding-right: 0;
+    padding-right: 15px;
     padding-left: 0;
   }
   .header-menu .logo-block {
@@ -11763,19 +11764,20 @@ body.modal-open {
     padding-right: 20px;
   }
   .projects .projects-slider {
-    max-height: 228px;
     margin-left: 30px;
     margin-right: 20px;
   }
+  .projects .projects-slider a {
+    height: auto !important;
+  }
   .projects .projects-slider a img {
     width: 100%;
-    max-height: 230px;
+    max-height: none !important;
     -o-object-fit: cover;
        object-fit: cover;
   }
   .projects .col-12:first-child {
     position: relative;
-    padding-right: 15px;
   }
   .projects .col-12:first-child:before {
     content: '';
@@ -11796,6 +11798,9 @@ body.modal-open {
     background-color: #FAFAFA;
     top: 0;
     right: -180px;
+  }
+  .projects .col-12:last-child {
+    padding-right: 0;
   }
   .clients .container {
     padding-top: 70px;
@@ -11997,6 +12002,9 @@ body.modal-open {
   }
   .section-title {
     font-size: 26px;
+  }
+  .footer .to-top {
+    right: 20px;
   }
 }
 
