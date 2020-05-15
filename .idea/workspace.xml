@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d6be439-e9e9-4444-9b6a-ab2755f79eac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_general.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/app.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,13 +36,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="16" />
+            <state relative-caret-position="506">
+              <caret line="189" selection-start-line="189" selection-end-line="189" />
               <folding>
                 <element signature="n#!!block;n#initMap#0" />
                 <element signature="e#1861#3720#0" />
                 <element signature="n#!!block;n#checkWidth#0" />
-                <element signature="n#!!block;n#startBannerSlider#0" />
                 <element signature="n#!!block;n#startClientsSlider#0" />
                 <element signature="n#!!block;n#startProjectsSlider#0" />
               </folding>
@@ -46,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scss/_general.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" selection-start-line="37" selection-end-line="50" selection-end-column="1" />
+            <state relative-caret-position="780">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -61,13 +67,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="904" column="10" selection-start-line="904" selection-start-column="1" selection-end-line="904" selection-end-column="10" />
+            <state relative-caret-position="605">
+              <caret line="256" column="31" selection-start-line="256" selection-start-column="31" selection-end-line="256" selection-end-column="31" />
               <folding>
                 <element signature="e#333#3411#0" />
+                <element signature="e#6905#6969#0" />
+                <element signature="e#7147#7269#0" />
+                <element signature="e#7277#7802#0" />
                 <element signature="e#17966#21354#0" />
                 <element signature="e#21371#24685#0" />
                 <element signature="e#24704#26112#0" />
@@ -77,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="1642" selection-start-line="1642" selection-end-line="1642" />
+            <state relative-caret-position="506">
+              <caret line="830" column="93" selection-start-line="830" selection-start-column="93" selection-end-line="830" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -90,10 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>projects</find>
-      <find>right-arrow-preview</find>
-      <find>offerta-</find>
-      <find>oferta_pic_1.svg</find>
       <find>fonts/slick.woff</find>
       <find>/offers/</find>
       <find>src=&quot;assets/img/gal-pic-1.jpg&quot; alt=&quot;&quot;</find>
@@ -115,11 +120,15 @@
       <find>slide-item</find>
       <find>openReference</find>
       <find>pin.png</find>
-      <find>map-p</find>
       <find>googleMap</find>
       <find>pin-map.s</find>
       <find>mapEle</find>
+      <find>pad-s</find>
       <find>initMap</find>
+      <find>map-p</find>
+      <find>offer-i</find>
+      <find>slickGoTo</find>
+      <find>progress</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;assets/img/gal-pic-1.jpg&quot; loading=&quot;lazy&quot; alt=&quot;&quot;</replace>
@@ -133,11 +142,11 @@
       <list>
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/../../360/gd360/index.html" />
-        <option value="$PROJECT_DIR$/assets/scss/_general.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_variables.scss" />
-        <option value="$PROJECT_DIR$/assets/scss/app.scss" />
-        <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/scss/_general.scss" />
+        <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/assets/scss/app.scss" />
       </list>
     </option>
   </component>
@@ -172,6 +181,13 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -181,7 +197,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/referens" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/projects/big" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -195,11 +211,11 @@
       <recent name="$PROJECT_DIR$/assets/css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/projects/big" />
       <recent name="$PROJECT_DIR$/assets/img/referens" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets/css" />
       <recent name="$PROJECT_DIR$/assets/css/fonts" />
-      <recent name="$PROJECT_DIR$/assets/img/banners" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -232,18 +248,18 @@
       <workItem from="1589108072974" duration="14930000" />
       <workItem from="1589180752762" duration="118000" />
       <workItem from="1589263753530" duration="6675000" />
-      <workItem from="1589572991558" duration="4261000" />
+      <workItem from="1589572991558" duration="6116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85324000" />
+    <option name="totallyTimeSpent" value="87179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="23" width="2479" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26694044" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26694044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -259,7 +275,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32981133" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2618868" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2618868" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -384,13 +400,6 @@
     <entry file="file://$PROJECT_DIR$/dist/assets/js/app.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_general.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" selection-start-line="37" selection-end-line="50" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -408,42 +417,51 @@
     <entry file="file://$PROJECT_DIR$/assets/img/map-pin.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="904" column="10" selection-start-line="904" selection-start-column="1" selection-end-line="904" selection-end-column="10" />
-          <folding>
-            <element signature="e#333#3411#0" />
-            <element signature="e#17966#21354#0" />
-            <element signature="e#21371#24685#0" />
-            <element signature="e#24704#26112#0" />
-            <element signature="e#26578#28014#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/pin-map.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="830" column="93" selection-start-line="830" selection-start-column="93" selection-end-line="830" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="506">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
           <folding>
             <element signature="n#!!block;n#initMap#0" />
             <element signature="e#1861#3720#0" />
             <element signature="n#!!block;n#checkWidth#0" />
-            <element signature="n#!!block;n#startBannerSlider#0" />
             <element signature="n#!!block;n#startClientsSlider#0" />
             <element signature="n#!!block;n#startProjectsSlider#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/scss/_general.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="1642" selection-start-line="1642" selection-end-line="1642" />
+        <state relative-caret-position="780">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="256" column="31" selection-start-line="256" selection-start-column="31" selection-end-line="256" selection-end-column="31" />
+          <folding>
+            <element signature="e#333#3411#0" />
+            <element signature="e#6905#6969#0" />
+            <element signature="e#7147#7269#0" />
+            <element signature="e#7277#7802#0" />
+            <element signature="e#17966#21354#0" />
+            <element signature="e#21371#24685#0" />
+            <element signature="e#24704#26112#0" />
+            <element signature="e#26578#28014#0" />
+          </folding>
         </state>
       </provider>
     </entry>

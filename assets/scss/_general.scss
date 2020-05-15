@@ -49,3 +49,8 @@ body {
   color: $main-font;
   padding-left: 40px;
 }
+
+@keyframes separatorAnim {
+  from {width: 0;}
+  to {width: 100%;}
+}

@@ -173,26 +173,23 @@ function startBannerSlider() {
         variableWidth: true,
         dots: false,
         arrows: false,
-        swipe: false,
-        autoplay: true,
-        autoplaySpeed: interval
+        swipe: false
     });
     $('.banner-quote').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
         arrows: false,
-        swipe: false,
-        autoplay: true,
-        autoplaySpeed: interval
+        swipe: false
     });
 
-    $('.progress-status').animate({'width': '100%'}, interval - 50);
+    $('.progress-status').addClass('start-animation');
 
-    $('.banner-quote').on('afterChange', function (event, slick, currentSlide, nextSlide) {
-        $('.progress-status').width(0);
-        $('.progress-status').animate({'width': '100%'}, interval);
-    });
+    setInterval(function() {
+        console.log('interval');
+        $('.banner-slider').slick('slickNext');
+        $('.banner-quote').slick('slickNext');
+    }, interval);
 }
 
 function startClientsSlider() {

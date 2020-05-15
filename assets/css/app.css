@@ -10218,6 +10218,24 @@ body.modal-open {
   padding-left: 40px;
 }
 
+@-webkit-keyframes separatorAnim {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes separatorAnim {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 .header-menu {
   height: 72px;
   background-color: #0D164D;
@@ -10468,6 +10486,15 @@ body.modal-open {
   background-color: #0BB944;
 }
 
+.banner .header-block .separator .progress-status.start-animation {
+  -webkit-animation-name: separatorAnim;
+          animation-name: separatorAnim;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
 .banner .details-block {
   position: relative;
   width: 100%;
@@ -10628,7 +10655,7 @@ body.modal-open {
 }
 
 .offers .offer-item.pad-m h4 {
-  padding-right: 50px;
+  padding-right: 60px;
 }
 
 .offers .offer-item:hover img {

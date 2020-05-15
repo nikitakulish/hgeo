@@ -250,6 +250,12 @@
         width: 0%;
         height: 5px;
         background-color: $main-green;
+
+        &.start-animation {
+          animation-name: separatorAnim;
+          animation-iteration-count: infinite;
+          animation-duration: 5s;
+        }
       }
     }
   }
@@ -414,7 +420,7 @@
 
     &.pad-m {
       h4 {
-        padding-right: 50px;
+        padding-right: 60px;
       }
     }
 
