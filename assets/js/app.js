@@ -186,7 +186,6 @@ function startBannerSlider() {
     $('.progress-status').addClass('start-animation');
 
     setInterval(function() {
-        console.log('interval');
         $('.banner-slider').slick('slickNext');
         $('.banner-quote').slick('slickNext');
     }, interval);
