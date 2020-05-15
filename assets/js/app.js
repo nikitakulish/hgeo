@@ -9,8 +9,7 @@ var app = {
     }
 };
 
-function initMap(mapElement) {
-    mapElement = (typeof mapElement === 'undefined') ? 'googleMap' : mapElement;
+function initMap() {
     var mapa1;
     var lokalizacja;
     var MY_MAPTYPE_ID = 'custom_style';
@@ -44,7 +43,7 @@ function initMap(mapElement) {
         //mapTypeId:google.maps.MapTypeId.ROADMAP   // typ mapy do wyświetlenia
     };
 
-    mapa1 = new google.maps.Map(document.getElementById(mapElement), mapOptions);
+    mapa1 = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
 
     var styleOpts = [
         {
