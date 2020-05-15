@@ -127,7 +127,7 @@ function initMap() {
 
     // DODATKOWE ELEMENTY NA MAPIE
     var iconBase = {
-        url: "../assets/img/map-pin.png", // url
+        url: "../img/map-pin.png", // url
         scaledSize: new google.maps.Size(50, 50),
     };
     var marker = new google.maps.Marker({           // DODAWANIE MARKERA
