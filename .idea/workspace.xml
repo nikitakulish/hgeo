@@ -4,12 +4,11 @@
     <list default="true" id="7d6be439-e9e9-4444-9b6a-ab2755f79eac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/referens/Referencje_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pin.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/app.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="1629" column="6" selection-start-line="1629" selection-start-column="6" selection-end-line="1629" selection-end-column="6" />
+            <state relative-caret-position="496">
+              <caret line="1627" column="14" lean-forward="true" selection-start-line="1627" selection-start-column="14" selection-end-line="1627" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -92,7 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>offer-item</find>
       <find>linea</find>
       <find>header-block</find>
       <find>modal-b</find>
@@ -122,6 +120,7 @@
       <find>project-content</find>
       <find>slide-item</find>
       <find>openReference</find>
+      <find>pin.png</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;assets/img/gal-pic-1.jpg&quot; loading=&quot;lazy&quot; alt=&quot;&quot;</replace>
@@ -137,9 +136,9 @@
         <option value="$PROJECT_DIR$/../../360/gd360/index.html" />
         <option value="$PROJECT_DIR$/assets/scss/_general.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_variables.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -234,12 +233,12 @@
       <workItem from="1589108072974" duration="14930000" />
       <workItem from="1589180752762" duration="118000" />
       <workItem from="1589263753530" duration="6675000" />
-      <workItem from="1589572991558" duration="3303000" />
+      <workItem from="1589572991558" duration="3713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84366000" />
+    <option name="totallyTimeSpent" value="84776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="23" width="2479" height="1417" extended-state="0" />
@@ -376,9 +375,6 @@
     <entry file="file://$PROJECT_DIR$/dist/assets/js/app.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/pin.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/pin-map.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -427,10 +423,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/map-pin.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="1629" column="6" selection-start-line="1629" selection-start-column="6" selection-end-line="1629" selection-end-column="6" />
+        <state relative-caret-position="496">
+          <caret line="1627" column="14" lean-forward="true" selection-start-line="1627" selection-start-column="14" selection-end-line="1627" selection-end-column="14" />
         </state>
       </provider>
     </entry>
