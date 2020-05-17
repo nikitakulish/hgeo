@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d6be439-e9e9-4444-9b6a-ab2755f79eac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/app.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+            <state relative-caret-position="496">
+              <caret line="136" column="13" lean-forward="true" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -30,10 +37,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="128" column="20" lean-forward="true" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+            <state relative-caret-position="721">
+              <caret line="347" column="38" lean-forward="true" selection-start-line="347" selection-start-column="38" selection-end-line="347" selection-end-column="38" />
               <folding>
-                <element signature="e#1861#3720#0" />
+                <element signature="n#!!block;n#initMap#0" />
                 <element signature="n#!!block;n#checkWidth#0" />
                 <element signature="n#!!block;n#startBannerSlider#0" />
                 <element signature="n#!!block;n#startClientsSlider#0" />
@@ -61,30 +68,73 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="787">
-              <caret line="941" column="16" lean-forward="true" selection-start-line="941" selection-start-column="16" selection-end-line="941" selection-end-column="16" />
+            <state relative-caret-position="369">
+              <caret line="1922" column="20" lean-forward="true" selection-start-line="1922" selection-start-column="20" selection-end-line="1922" selection-end-column="20" />
               <folding>
                 <element signature="e#333#3411#0" />
-                <element signature="e#6905#6969#0" />
-                <element signature="e#7147#7269#0" />
-                <element signature="e#7277#7802#0" />
-                <element signature="e#17966#21354#0" />
-                <element signature="e#21371#24685#0" />
-                <element signature="e#24704#26112#0" />
-                <element signature="e#26578#28014#0" />
+                <element signature="e#28551#29053#0" />
+                <element signature="e#29065#29990#0" />
+                <element signature="e#30002#30567#0" />
+                <element signature="e#30587#30668#0" />
+                <element signature="e#30682#31607#0" />
+                <element signature="e#31620#31839#0" />
+                <element signature="e#31850#32010#0" />
+                <element signature="e#32023#33298#0" />
+                <element signature="e#33316#33579#0" />
+                <element signature="e#33631#36304#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="567" selection-start-line="567" selection-end-line="567" />
+            <state relative-caret-position="592">
+              <caret line="545" column="51" selection-start-line="545" selection-start-column="34" selection-end-line="545" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../360/gd360/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="1034" column="47" selection-start-line="1034" selection-start-column="47" selection-end-line="1034" selection-end-column="47" />
+              <folding>
+                <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#5;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#6;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#7;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#8;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#9;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#10;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -134,13 +184,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/../../360/gd360/index.html" />
         <option value="$PROJECT_DIR$/assets/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_general.scss" />
-        <option value="$PROJECT_DIR$/assets/scss/app.scss" />
-        <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/send_form_email.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/mail.php" />
+        <option value="$PROJECT_DIR$/assets/scss/app.scss" />
       </list>
     </option>
   </component>
@@ -156,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,27 +215,17 @@
               <item name="www" type="b2602c69:ProjectViewProjectNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/projects/big" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -192,17 +233,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img/banners" />
-      <recent name="$PROJECT_DIR$/assets/img/logo" />
-      <recent name="$PROJECT_DIR$/assets/css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/img/projects/big" />
       <recent name="$PROJECT_DIR$/assets/img/referens" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets/css" />
-      <recent name="$PROJECT_DIR$/assets/css/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/banners" />
+      <recent name="$PROJECT_DIR$/assets/img/logo" />
+      <recent name="$PROJECT_DIR$/assets/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -235,18 +276,19 @@
       <workItem from="1589108072974" duration="14930000" />
       <workItem from="1589180752762" duration="118000" />
       <workItem from="1589263753530" duration="6675000" />
-      <workItem from="1589572991558" duration="6821000" />
+      <workItem from="1589572991558" duration="6940000" />
+      <workItem from="1589702943730" duration="1069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87884000" />
+    <option name="totallyTimeSpent" value="89072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="23" width="2479" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26694044" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26940453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -262,7 +304,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32981133" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2618868" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2618868" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -341,35 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../360/gd360/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="1019" column="28" lean-forward="true" selection-start-line="1018" selection-start-column="7" selection-end-line="1019" selection-end-column="28" />
-          <folding>
-            <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#5;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#6;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#7;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#8;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#9;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#10;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/close.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -387,20 +400,6 @@
     <entry file="file://$PROJECT_DIR$/dist/assets/js/app.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" selection-start-line="12" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/map-pin.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -414,29 +413,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
+    <entry file="file://$PROJECT_DIR$/assets/scss/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="787">
-          <caret line="941" column="16" lean-forward="true" selection-start-line="941" selection-start-column="16" selection-end-line="941" selection-end-column="16" />
+        <state relative-caret-position="180">
+          <caret line="12" column="8" selection-start-line="12" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="136" column="13" lean-forward="true" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/send_form_email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../doris/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="332" column="13" lean-forward="true" selection-start-line="305" selection-start-column="12" selection-end-line="332" selection-end-column="13" />
           <folding>
-            <element signature="e#333#3411#0" />
-            <element signature="e#6905#6969#0" />
-            <element signature="e#7147#7269#0" />
-            <element signature="e#7277#7802#0" />
-            <element signature="e#17966#21354#0" />
-            <element signature="e#21371#24685#0" />
-            <element signature="e#24704#26112#0" />
-            <element signature="e#26578#28014#0" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../360/gd360/mail.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="128" column="20" lean-forward="true" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+        <state relative-caret-position="721">
+          <caret line="347" column="38" lean-forward="true" selection-start-line="347" selection-start-column="38" selection-end-line="347" selection-end-column="38" />
           <folding>
-            <element signature="e#1861#3720#0" />
+            <element signature="n#!!block;n#initMap#0" />
             <element signature="n#!!block;n#checkWidth#0" />
             <element signature="n#!!block;n#startBannerSlider#0" />
             <element signature="n#!!block;n#startClientsSlider#0" />
@@ -445,10 +461,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../360/gd360/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="1034" column="47" selection-start-line="1034" selection-start-column="47" selection-end-line="1034" selection-end-column="47" />
+          <folding>
+            <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#5;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#6;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#7;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#8;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#9;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#10;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="567" selection-start-line="567" selection-end-line="567" />
+        <state relative-caret-position="592">
+          <caret line="545" column="51" selection-start-line="545" selection-start-column="34" selection-end-line="545" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="1922" column="20" lean-forward="true" selection-start-line="1922" selection-start-column="20" selection-end-line="1922" selection-end-column="20" />
+          <folding>
+            <element signature="e#333#3411#0" />
+            <element signature="e#28551#29053#0" />
+            <element signature="e#29065#29990#0" />
+            <element signature="e#30002#30567#0" />
+            <element signature="e#30587#30668#0" />
+            <element signature="e#30682#31607#0" />
+            <element signature="e#31620#31839#0" />
+            <element signature="e#31850#32010#0" />
+            <element signature="e#32023#33298#0" />
+            <element signature="e#33316#33579#0" />
+            <element signature="e#33631#36304#0" />
+          </folding>
         </state>
       </provider>
     </entry>

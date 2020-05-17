@@ -536,14 +536,14 @@
                 </div>
             </div>
             <div class="col-12 col-md-6">
-                <form action="">
+                <form id="contact-form" method="POST">
                     <p class="title mb-1">Formularz kontaktowy</p>
-                    <input type="email" placeholder="Twój adres e-mail lub nr telefonu">
-                    <input type="text" placeholder="Temat zapytania">
-                    <textarea placeholder="Treść.."></textarea>
+                    <input type="email" name="email" id="email" placeholder="Twój adres e-mail lub nr telefonu" required>
+                    <input type="text" name="subject" id="subject" placeholder="Temat zapytania">
+                    <textarea placeholder="Treść.." id="message" name="message" required></textarea>
 
                     <div class="actions-block">
-                        <p class="success">Wiadomość została wysłana</p>
+                        <p class="form-send-message" id="mailresult"></p>
                         <button>Wyślij</button>
                     </div>
                 </form>

@@ -11139,8 +11139,7 @@ body.modal-open {
           align-items: center;
 }
 
-.contact .contact-data form .actions-block .success {
-  display: none;
+.contact .contact-data form .actions-block .form-send-message {
   width: 100%;
   font-size: 16px;
   font-family: 'BioSansSemiBold', serif;
@@ -12060,7 +12059,7 @@ body.modal-open {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 361px) {
   .header-menu .logo-block {
     padding: 0 10px;
   }

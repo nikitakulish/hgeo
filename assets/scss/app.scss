@@ -875,8 +875,7 @@
         justify-content: flex-end;
         align-items: center;
 
-        .success {
-          display: none;
+        .form-send-message {
           width: 100%;
           font-size: 16px;
           font-family: 'BioSansSemiBold', serif;
@@ -1931,7 +1930,7 @@
   }
 }
 
-@media(max-width: 350px) {
+@media(max-width: 361px) {
   .header-menu {
     .logo-block {
       padding: 0 10px;

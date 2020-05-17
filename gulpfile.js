@@ -114,11 +114,11 @@ gulp.task("replaceHtmlBlock", function() {
 
 // Configure the browserSync task and watch file path for change
 gulp.task("watch", function browserDev(done) {
-  browserSync.init({
-    server: {
-      baseDir: "./"
-    }
-  });
+  // browserSync.init({
+  //   server: {
+  //     baseDir: "./"
+  //   }
+  // });
   gulp.watch(
     [
       "assets/scss/*.scss",
@@ -126,14 +126,14 @@ gulp.task("watch", function browserDev(done) {
       "!assets/scss/bootstrap/**"
     ],
     gulp.series("css:minify", function cssBrowserReload(done) {
-      browserSync.reload();
+      // browserSync.reload();
       done(); //Async callback for completion.
     })
   );
   gulp.watch(
     "assets/js/app.js",
     gulp.series("js:minify", function jsBrowserReload(done) {
-      browserSync.reload();
+      // browserSync.reload();
       done();
     })
   );

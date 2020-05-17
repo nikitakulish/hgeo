@@ -327,4 +327,29 @@ $("document").ready(function () {
 
         $('#modalReference' + currentSlideIndex).modal('show');
     });
+
+    $("#contact-form").on('submit', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        var email = $("#email").val();
+        var subject = $("#subject").val();
+        var message = $("#message").val();
+
+        var dataString = 'email=' + email + '&subject=' + subject + '&message=' + message;
+        $.ajax({
+            type: "POST",
+            url: "mail.php",
+            data: dataString,
+            cache: false,
+            success: function(){
+                $("#mailresult").html("Twoja wiadomość została wysłana");
+                document.getElementById("contact-form").reset();
+                setTimeout(function(){
+                    $("#mailresult").html("");
+                }, 2000);
+            }
+        });
+
+    });
 });
