@@ -1645,6 +1645,13 @@
 <script src="assets/js/app.js"></script>
 <script src="//maps.googleapis.com/maps/api/js?region=PL&amp;key=AIzaSyC4E7we2d2Emb_le7XWw_aHGPOaTJiPCHU&callback=initMap"
         async defer></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LfajPgUAAAAADsgNmqiRCKCBNwzKZrtP_LF45gA"></script>
+<script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6LfajPgUAAAAADsgNmqiRCKCBNwzKZrtP_LF45gA', {action: 'homepage'}).then(function(token) {
+        });
+    });
+</script>
 <!-- endbuild -->
 </body>
 </html>

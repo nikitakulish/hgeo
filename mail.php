@@ -3,8 +3,8 @@ $email = $_POST["email"];
 $subject = $_POST["subject"];
 $message = $_POST["message"];
 
-$EmailTo = "nikita.kulish@gmail.com";
-$MailSubject = "Nowa wiadomość HORYZONT GEODEZJA";
+$EmailTo = "biuro@horyzontgeodezja.pl";
+$MailSubject = "Nowa wiadomość horyzontgeodezja.pl";
 
 // prepare email body text
 $Body .= "Mail: ";
