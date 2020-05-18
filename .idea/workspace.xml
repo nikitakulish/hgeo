@@ -2,8 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d6be439-e9e9-4444-9b6a-ab2755f79eac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banners/slide-pic-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/banners/slide-pic-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banners/slide-pic-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/banners/slide-pic-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banners/slide-pic-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/banners/slide-pic-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/banners/slide-pic-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/banners/slide-pic-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/oferta_pic_1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/oferta_pic_1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/oferta_pic_2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/oferta_pic_2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/oferta_pic_4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/oferta_pic_4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/oferta_pic_5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/oferta_pic_5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/oferta_pic_6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/oferta_pic_6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/offers/pic-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/offers/pic-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/offers/pic-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/offers/pic-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/offers/pic-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/offers/pic-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/offers/pic-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/offers/pic-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/offers/pic-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/offers/pic-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/offers/pic-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/offers/pic-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/projects/01-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/projects/01-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/projects/01-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/projects/01-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/projects/01-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/projects/01-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/projects/01-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/projects/01-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/projects/02-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/projects/02-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/projects/02-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/projects/02-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/projects/02-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/projects/02-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/projects/02-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/projects/02-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/projects/03-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/projects/03-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/projects/03-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/projects/03-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/projects/03-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/projects/03-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/projects/03-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/projects/03-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/mail.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,85 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="136" column="13" lean-forward="true" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="332" column="28" lean-forward="true" selection-start-line="332" selection-start-column="28" selection-end-line="332" selection-end-column="28" />
-              <folding>
-                <element signature="n#!!block;n#initMap#0" />
-                <element signature="n#!!block;n#checkWidth#0" />
-                <element signature="n#!!block;n#startBannerSlider#0" />
-                <element signature="n#!!block;n#startClientsSlider#0" />
-                <element signature="n#!!block;n#startProjectsSlider#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/_general.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="24" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="8" selection-start-line="12" selection-end-line="12" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="1922" column="20" lean-forward="true" selection-start-line="1922" selection-start-column="20" selection-end-line="1922" selection-end-column="20" />
-              <folding>
-                <element signature="e#333#3411#0" />
-                <element signature="e#28551#29053#0" />
-                <element signature="e#29065#29990#0" />
-                <element signature="e#30002#30567#0" />
-                <element signature="e#30587#30668#0" />
-                <element signature="e#30682#31607#0" />
-                <element signature="e#31620#31839#0" />
-                <element signature="e#31850#32010#0" />
-                <element signature="e#32023#33298#0" />
-                <element signature="e#33316#33579#0" />
-                <element signature="e#33631#36304#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="815">
-              <caret line="1651" column="11" lean-forward="true" selection-start-line="1651" selection-start-column="11" selection-end-line="1651" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="50" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="50" />
+            <state relative-caret-position="256">
+              <caret line="120" column="5" lean-forward="true" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -149,12 +103,12 @@
         <option value="$PROJECT_DIR$/../../360/gd360/index.html" />
         <option value="$PROJECT_DIR$/assets/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_general.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/send_form_email.php" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
         <option value="$PROJECT_DIR$/mail.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -170,6 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,7 +136,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,16 +149,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/img/banners" />
+      <recent name="$PROJECT_DIR$/assets/img/logo" />
+      <recent name="$PROJECT_DIR$/assets/css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/img/projects/big" />
       <recent name="$PROJECT_DIR$/assets/img/referens" />
       <recent name="$PROJECT_DIR$/assets/img" />
-      <recent name="$PROJECT_DIR$/assets/css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img/banners" />
-      <recent name="$PROJECT_DIR$/assets/img/logo" />
       <recent name="$PROJECT_DIR$/assets/css" />
     </key>
   </component>
@@ -239,18 +194,20 @@
       <workItem from="1589180752762" duration="118000" />
       <workItem from="1589263753530" duration="6675000" />
       <workItem from="1589572991558" duration="6940000" />
-      <workItem from="1589702943730" duration="1868000" />
+      <workItem from="1589702943730" duration="2044000" />
+      <workItem from="1589783773856" duration="1081000" />
+      <workItem from="1589824973923" duration="474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89871000" />
+    <option name="totallyTimeSpent" value="91602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="23" width="2479" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26940453" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27433264" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -368,34 +325,7 @@
     <entry file="file://$PROJECT_DIR$/assets/img/pin-map.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_general.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" selection-start-line="12" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="136" column="13" lean-forward="true" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/send_form_email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/send_form_email.php" />
     <entry file="file://$PROJECT_DIR$/../../doris/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="649">
@@ -408,26 +338,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../360/gd360/mail.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="1922" column="20" lean-forward="true" selection-start-line="1922" selection-start-column="20" selection-end-line="1922" selection-end-column="20" />
-          <folding>
-            <element signature="e#333#3411#0" />
-            <element signature="e#28551#29053#0" />
-            <element signature="e#29065#29990#0" />
-            <element signature="e#30002#30567#0" />
-            <element signature="e#30587#30668#0" />
-            <element signature="e#30682#31607#0" />
-            <element signature="e#31620#31839#0" />
-            <element signature="e#31850#32010#0" />
-            <element signature="e#32023#33298#0" />
-            <element signature="e#33316#33579#0" />
-            <element signature="e#33631#36304#0" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../360/gd360/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -460,8 +370,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="332" column="28" lean-forward="true" selection-start-line="332" selection-start-column="28" selection-end-line="332" selection-end-column="28" />
+        <state relative-caret-position="975">
+          <caret line="332" column="28" selection-start-line="332" selection-start-column="28" selection-end-line="332" selection-end-column="28" />
           <folding>
             <element signature="n#!!block;n#initMap#0" />
             <element signature="n#!!block;n#checkWidth#0" />
@@ -472,17 +382,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail.php">
+    <entry file="file://$PROJECT_DIR$/assets/scss/_general.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="50" />
+        <state relative-caret-position="780">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" selection-start-line="12" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26475">
+          <caret line="1922" column="20" selection-start-line="1922" selection-start-column="20" selection-end-line="1922" selection-end-column="20" />
+          <folding>
+            <element signature="e#333#3411#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="1651" column="11" lean-forward="true" selection-start-line="1651" selection-start-column="11" selection-end-line="1651" selection-end-column="11" />
+        <state relative-caret-position="24765">
+          <caret line="1651" column="11" selection-start-line="1651" selection-start-column="11" selection-end-line="1651" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="120" column="5" lean-forward="true" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
         </state>
       </provider>
     </entry>
