@@ -218,19 +218,37 @@ function startProjectsSlider() {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
+        asNavFor: '.projects-slider',
         dots: false,
         draggable: false,
-        swipe: false
+        swipe: false,
+        responsive: [
+            {
+                breakpoint: 767,
+                settings: {
+                    swipe: true
+                }
+            },
+        ]
     });
 
     $('.projects-slider').slick({
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
+        asNavFor: '.info-slider',
         dots: false,
         draggable: false,
-        swipe: false,
         lazyLoad: 'ondemand',
+        swipe: false,
+        responsive: [
+            {
+                breakpoint: 767,
+                settings: {
+                    swipe: true
+                }
+            },
+        ]
     });
 
     $('.gallery-navigation .left-arrow').click(function () {
