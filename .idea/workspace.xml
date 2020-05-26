@@ -2,9 +2,301 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d6be439-e9e9-4444-9b6a-ab2755f79eac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/app.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery-3.5.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/popper.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/popper.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/popper.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/app.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/arrow_lang.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/arrow_next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/arrow_prev.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/back-top.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/banners/slide-pic-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/banners/slide-pic-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/banners/slide-pic-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/banners/slide-pic-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/banners/slide-pic-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/banners/slide-pic-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/bg-slogan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/clients/klient-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/clients/klient-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/clients/klient-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/clients/klient-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/clients/klient-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/clients/klient-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/clients/klient-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/clients/klient-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/clients/klient-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/clients/klient-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/clients/klient-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/clients/klient-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/clients/klient-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/clients/klient-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/clients/klient-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/flag_en.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/flag_pl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/gal-pic-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/linkedin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/map-pin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/oferta_pic_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/oferta_pic_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/oferta_pic_3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/oferta_pic_4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/oferta_pic_5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/oferta_pic_6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/offers/pic-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/offers/pic-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/offers/pic-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/offers/pic-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/offers/pic-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/offers/pic-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/offers/pic-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/offers/pic-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/offers/pic-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/offers/pic-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/offers/pic-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/offers/pic-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/pattern-bg-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/pattern-bg-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/pic-slogan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/pin-map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/profil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/01-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/01-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/01-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/01-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/02-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/02-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/02-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/02-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/03-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/03-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/03-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/03-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/04-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/04-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/04-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/04-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/05-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/05-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/05-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/05-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/06-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/06-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/07-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/07-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/07-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/07-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/08-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/08-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/08-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/08-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/09-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/10-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/10-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/10-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/10-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/11-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/11-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/11-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/11-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/12-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/12-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/12-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/12-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/13-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/14-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/14-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/14-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/14-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/15-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/01-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/01-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/01-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/01-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/01-2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/01-2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/01-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/01-3_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/01-3_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/01-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/01-4_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/01-4_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/02-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/02-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/02-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/02-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/02-2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/02-2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/02-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/02-3_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/02-3_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/02-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/02-4_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/02-4_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/03-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/03-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/03-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/03-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/03-2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/03-2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/03-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/03-3_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/03-3_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/03-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/03-4_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/03-4_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/04-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/04-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/04-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/04-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/04-2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/04-2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/04-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/04-3_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/04-3_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/04-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/04-4_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/04-4_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/05-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/05-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/05-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/05-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/05-2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/05-2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/05-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/05-3_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/05-3_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/05-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/05-4_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/05-4_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/06-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/06-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/06-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/06-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/06-2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/06-2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/07-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/07-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/07-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/07-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/07-2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/07-2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/07-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/07-3_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/07-3_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/07-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/07-4_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/07-4_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/08-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/08-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/08-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/08-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/08-2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/08-2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/08-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/08-3_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/08-3_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/08-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/08-4_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/08-4_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/09-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/09-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/09-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/10-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/10-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/10-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/10-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/10-2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/10-2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/10-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/10-3_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/10-3_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/10-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/10-4_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/10-4_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/11-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/11-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/11-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/11-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/11-2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/11-2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/11-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/11-3_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/11-3_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/11-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/11-4_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/11-4_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/12-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/12-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/12-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/12-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/12-2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/12-2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/12-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/12-3_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/12-3_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/12-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/12-4_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/12-4_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/13-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/13-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/13-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/14-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/14-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/14-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/14-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/14-2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/14-2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/14-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/14-3_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/14-3_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/14-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/14-4_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/14-4_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/15-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/15-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/projects/JPEG/15-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/referens/ref_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/referens/ref_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/referens/ref_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/referens/ref_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/tel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/top.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/app.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/vendor/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/vendor/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/vendor/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,17 +314,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="971">
-              <caret line="152" column="11" selection-start-line="152" selection-start-column="11" selection-end-line="152" selection-end-column="11" />
+            <state relative-caret-position="590">
+              <caret line="69" column="36" lean-forward="true" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="241" column="29" selection-start-line="241" selection-start-column="29" selection-end-line="241" selection-end-column="29" />
+            <state relative-caret-position="289">
+              <caret line="228" column="25" selection-start-line="228" selection-start-column="25" selection-end-line="228" selection-end-column="25" />
               <folding>
                 <element signature="n#!!block;n#initMap#0" />
                 <element signature="n#!!block;n#checkWidth#0" />
@@ -43,11 +335,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="1628" column="19" selection-start-line="1628" selection-start-column="19" selection-end-line="1628" selection-end-column="19" />
+            <state relative-caret-position="18885">
+              <caret line="1636" column="22" selection-start-line="1636" selection-start-column="22" selection-end-line="1636" selection-end-column="22" />
               <folding>
                 <element signature="e#333#3411#0" />
                 <element signature="e#26954#28390#0" />
@@ -63,10 +355,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="16785">
+              <caret line="1664" column="45" selection-start-line="1664" selection-start-column="45" selection-end-line="1664" selection-end-column="45" />
               <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -76,7 +381,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>quote-block</find>
       <find>iconBase</find>
       <find>modalReference1</find>
       <find>modalReference2</find>
@@ -103,9 +407,10 @@
       <find>bootstrap</find>
       <find>bootstrap.</find>
       <find>.slide-item</find>
-      <find>GDD</find>
       <find>to-top</find>
       <find>.projects {</find>
+      <find>bootstrap:scss</find>
+      <find>GDD</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;assets/img/gal-pic-1.jpg&quot; loading=&quot;lazy&quot; alt=&quot;&quot;</replace>
@@ -122,11 +427,13 @@
         <option value="$PROJECT_DIR$/assets/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_general.scss" />
         <option value="$PROJECT_DIR$/send_form_email.php" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/mail.php" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
+        <option value="$PROJECT_DIR$/assets/js/jquery-ui.min.js" />
+        <option value="$PROJECT_DIR$/assets/js/jquery-3.5.0.min.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/assets/js/app.js" />
       </list>
     </option>
   </component>
@@ -148,6 +455,11 @@
             <path>
               <item name="www" type="b2602c69:ProjectViewProjectNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,6 +487,7 @@
       <recent name="$PROJECT_DIR$/assets/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/img/banners" />
       <recent name="$PROJECT_DIR$/assets/img/logo" />
@@ -220,18 +533,19 @@
       <workItem from="1589866465330" duration="14000" />
       <workItem from="1589910712072" duration="2428000" />
       <workItem from="1589952231000" duration="37000" />
-      <workItem from="1590522043975" duration="2613000" />
+      <workItem from="1590522043975" duration="5025000" />
+      <workItem from="1590527468207" duration="132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99535000" />
+    <option name="totallyTimeSpent" value="102079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="23" width="2480" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22824302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23029557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -247,7 +561,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32981133" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2618868" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2618868" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -327,13 +641,6 @@
     <entry file="file://$PROJECT_DIR$/assets/img/close.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="10252" column="32" selection-start-line="10252" selection-start-column="32" selection-end-line="10252" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/surveying-4204856_1920.jpg" />
     <entry file="file://$PROJECT_DIR$/assets/img/oferta_pic_1.svg">
       <provider selected="true" editor-type-id="images" />
@@ -411,7 +718,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../old_site/.htaccess" />
-    <entry file="file://$PROJECT_DIR$/assets/js/vendor/bootstrap.min.js">
+    <entry file="file://$PROJECT_DIR$/assets/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -420,20 +727,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/assets/js/app.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3864" selection-start-column="3864" selection-end-column="3909" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="971">
-          <caret line="152" column="11" selection-start-line="152" selection-start-column="11" selection-end-line="152" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/assets/js/app.min.js" />
     <entry file="file://$PROJECT_DIR$/googleb4347f3130b29dd1.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -444,33 +738,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="317">
+          <caret line="10252" column="28" selection-start-line="10252" selection-start-column="28" selection-end-line="10252" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery-ui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="26937" lean-forward="true" selection-start-line="12" selection-start-column="26937" selection-end-line="12" selection-end-column="26937" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery-3.5.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="241" column="29" selection-start-line="241" selection-start-column="29" selection-end-line="241" selection-end-column="29" />
+        <state relative-caret-position="15">
+          <caret line="1" column="89407" selection-start-line="1" selection-start-column="89407" selection-end-line="1" selection-end-column="89407" />
           <folding>
-            <element signature="n#!!block;n#initMap#0" />
-            <element signature="n#!!block;n#checkWidth#0" />
-            <element signature="n#!!block;n#startBannerSlider#0" />
-            <element signature="n#!!block;n#startClientsSlider#0" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="69" column="36" lean-forward="true" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="1628" column="19" selection-start-line="1628" selection-start-column="19" selection-end-line="1628" selection-end-column="19" />
+        <state relative-caret-position="18885">
+          <caret line="1636" column="22" selection-start-line="1636" selection-start-column="22" selection-end-line="1636" selection-end-column="22" />
           <folding>
             <element signature="e#333#3411#0" />
             <element signature="e#26954#28390#0" />
@@ -478,6 +783,42 @@
             <element signature="e#29050#29975#0" />
             <element signature="e#29987#30552#0" />
             <element signature="e#30572#30653#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16785">
+          <caret line="1664" column="45" selection-start-line="1664" selection-start-column="45" selection-end-line="1664" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="228" column="25" selection-start-line="228" selection-start-column="25" selection-end-line="228" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!block;n#initMap#0" />
+            <element signature="n#!!block;n#checkWidth#0" />
+            <element signature="n#!!block;n#startBannerSlider#0" />
+            <element signature="n#!!block;n#startClientsSlider#0" />
           </folding>
         </state>
       </provider>
