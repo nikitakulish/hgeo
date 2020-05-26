@@ -173,7 +173,8 @@ function startBannerSlider() {
         variableWidth: true,
         dots: false,
         arrows: false,
-        swipe: false
+        swipe: false,
+        lazyLoad: 'ondemand',
     });
     $('.banner-quote').slick({
         slidesToShow: 1,
@@ -199,6 +200,7 @@ function startClientsSlider() {
         autoplay: true,
         autoplaySpeed: 3000,
         accessibility: false,
+        lazyLoad: 'ondemand',
         responsive: [
             {
                 breakpoint: 991,
@@ -227,7 +229,8 @@ function startProjectsSlider() {
         slidesToScroll: 1,
         dots: false,
         draggable: false,
-        swipe: false
+        swipe: false,
+        lazyLoad: 'ondemand',
     });
 
     $('.gallery-navigation .left-arrow').click(function () {
@@ -253,7 +256,15 @@ function startProjectsSlider() {
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 draggable: false,
-                swipe: false
+                swipe: false,
+                responsive: [
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            swipe: true
+                        }
+                    },
+                ]
             });
             $(modalId + '.slider-nav').slick({
                 slidesToShow: 4,
@@ -286,8 +297,17 @@ function startProjectsSlider() {
     });
 }
 
+function loadMap()
+{
+    var script = document.createElement('script');
+    script.src = '//maps.googleapis.com/maps/api/js?region=PL&key=AIzaSyC4E7we2d2Emb_le7XWw_aHGPOaTJiPCHU&callback=initMap';
+    script.type = 'text/javascript';
+    document.getElementsByTagName('head')[0].appendChild(script);
+}
+
 $(window).on('load', function () {
     $('.loader-wrapper').hide();
+    loadMap();
 });
 
 $("document").ready(function () {
@@ -299,11 +319,15 @@ $("document").ready(function () {
     startProjectsSlider();
 
     $(".link a, .to-top").bind('click', function (event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 600, 'easeOutQuad');
         event.preventDefault();
+        var $anchor = $(this);
+        if(navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 600, 'easeOutQuad');
+        }
     });
 
     $(".lang a").bind('click', function (event) {

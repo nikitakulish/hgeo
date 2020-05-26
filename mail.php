@@ -4,7 +4,7 @@ $subject = $_POST["subject"];
 $message = $_POST["message"];
 
 $EmailTo = "biuro@horyzontgeodezja.pl";
-$MailSubject = "Nowa wiadomość horyzontgeodezja.pl";
+$MailSubject = "Nowa wiadomosc horyzontgeodezja.pl";
 
 // prepare email body text
 $Body .= "Mail: ";
