@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d6be439-e9e9-4444-9b6a-ab2755f79eac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/app.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/app.min.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="243" column="21" lean-forward="true" selection-start-line="243" selection-start-column="21" selection-end-line="243" selection-end-column="21" />
+            <state relative-caret-position="500">
+              <caret line="241" column="29" selection-start-line="241" selection-start-column="29" selection-end-line="241" selection-end-column="29" />
               <folding>
                 <element signature="n#!!block;n#initMap#0" />
                 <element signature="n#!!block;n#checkWidth#0" />
@@ -42,13 +43,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="1628" column="19" selection-start-line="1628" selection-start-column="19" selection-end-line="1628" selection-end-column="19" />
+              <folding>
+                <element signature="e#333#3411#0" />
+                <element signature="e#26954#28390#0" />
+                <element signature="e#28536#29038#0" />
+                <element signature="e#29050#29975#0" />
+                <element signature="e#29987#30552#0" />
+                <element signature="e#30572#30653#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2251">
-              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+            <state relative-caret-position="15">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -59,9 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bg-blo</find>
-      <find>.projects {</find>
-      <find>.quote {</find>
       <find>quote-block</find>
       <find>iconBase</find>
       <find>modalReference1</find>
@@ -88,7 +102,10 @@
       <find>clients</find>
       <find>bootstrap</find>
       <find>bootstrap.</find>
+      <find>.slide-item</find>
+      <find>GDD</find>
       <find>to-top</find>
+      <find>.projects {</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;assets/img/gal-pic-1.jpg&quot; loading=&quot;lazy&quot; alt=&quot;&quot;</replace>
@@ -105,11 +122,11 @@
         <option value="$PROJECT_DIR$/assets/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_general.scss" />
         <option value="$PROJECT_DIR$/send_form_email.php" />
-        <option value="$PROJECT_DIR$/assets/scss/app.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/mail.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/assets/scss/app.scss" />
       </list>
     </option>
   </component>
@@ -131,24 +148,6 @@
             <path>
               <item name="www" type="b2602c69:ProjectViewProjectNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,12 +220,12 @@
       <workItem from="1589866465330" duration="14000" />
       <workItem from="1589910712072" duration="2428000" />
       <workItem from="1589952231000" duration="37000" />
-      <workItem from="1590522043975" duration="1678000" />
+      <workItem from="1590522043975" duration="2613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98600000" />
+    <option name="totallyTimeSpent" value="99535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="23" width="2480" height="1417" extended-state="6" />
@@ -402,16 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26475">
-          <caret line="1922" column="20" selection-start-line="1922" selection-start-column="20" selection-end-line="1922" selection-end-column="20" />
-          <folding>
-            <element signature="e#333#3411#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$PROJECT_DIR$/index_default.html" />
     <entry file="file://$PROJECT_DIR$/mail.php">
@@ -457,10 +446,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2251">
-          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        <state relative-caret-position="15">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
@@ -468,13 +456,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="243" column="21" lean-forward="true" selection-start-line="243" selection-start-column="21" selection-end-line="243" selection-end-column="21" />
+        <state relative-caret-position="500">
+          <caret line="241" column="29" selection-start-line="241" selection-start-column="29" selection-end-line="241" selection-end-column="29" />
           <folding>
             <element signature="n#!!block;n#initMap#0" />
             <element signature="n#!!block;n#checkWidth#0" />
             <element signature="n#!!block;n#startBannerSlider#0" />
             <element signature="n#!!block;n#startClientsSlider#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="1628" column="19" selection-start-line="1628" selection-start-column="19" selection-end-line="1628" selection-end-column="19" />
+          <folding>
+            <element signature="e#333#3411#0" />
+            <element signature="e#26954#28390#0" />
+            <element signature="e#28536#29038#0" />
+            <element signature="e#29050#29975#0" />
+            <element signature="e#29987#30552#0" />
+            <element signature="e#30572#30653#0" />
           </folding>
         </state>
       </provider>

@@ -11814,6 +11814,10 @@ body.modal-open {
   .projects .info {
     padding-right: 20px;
   }
+  .projects .info .project-content {
+    height: 222px;
+    overflow: hidden;
+  }
   .projects .projects-slider {
     margin-left: 30px;
     margin-right: 20px;

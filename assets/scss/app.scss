@@ -1624,6 +1624,11 @@
 
     .info {
       padding-right: 20px;
+
+      .project-content {
+        height: 222px;
+        overflow: hidden;
+      }
     }
 
     .projects-slider {
