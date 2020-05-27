@@ -174,7 +174,8 @@ function startBannerSlider() {
         dots: false,
         arrows: false,
         swipe: false,
-        lazyLoad: 'ondemand',
+        infinite: false,
+        lazyLoad: 'ondemand'
     });
     $('.banner-quote').slick({
         slidesToShow: 1,
@@ -238,7 +239,6 @@ function startProjectsSlider() {
         asNavFor: '.info-slider',
         dots: false,
         draggable: false,
-        lazyLoad: 'ondemand',
         swipe: false,
         responsive: [
             {
@@ -314,14 +314,6 @@ function startProjectsSlider() {
     });
 }
 
-function loadMap()
-{
-    var script = document.createElement('script');
-    script.src = '//maps.googleapis.com/maps/api/js?region=PL&key=AIzaSyC4E7we2d2Emb_le7XWw_aHGPOaTJiPCHU&callback=initMap';
-    script.type = 'text/javascript';
-    document.getElementsByTagName('head')[0].appendChild(script);
-}
-
 function google_maps_lazyload(api_key) {
     'use strict'
 
@@ -352,7 +344,6 @@ function google_maps_lazyload(api_key) {
 
 $(window).on('load', function () {
     $('.loader-wrapper').hide();
-    // loadMap();
     google_maps_lazyload("AIzaSyC4E7we2d2Emb_le7XWw_aHGPOaTJiPCHU");
 });
 

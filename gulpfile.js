@@ -5,6 +5,7 @@ var gulp = require("gulp"),
     del = require("del"),
     uglify = require("gulp-uglify"),
     concat = require("gulp-concat"),
+    concatCss = require('gulp-concat-css'),
     streamqueue = require("streamqueue"),
     cleanCSS = require("gulp-clean-css"),
     rename = require("gulp-rename"),
@@ -50,6 +51,21 @@ gulp.task(
                     suffix: ".min"
                 })
             )
+            .pipe(gulp.dest("./assets/css"));
+    })
+);
+
+// Concat CSS
+gulp.task(
+    "css:concat",
+    gulp.series("css:minify", function () {
+        return streamqueue({ objectMode: true },
+            gulp.src('./assets/css/slick.css'),
+            gulp.src('./assets/css/slick-theme.css'),
+            gulp.src('./assets/css/app.min.css')
+        ).pipe(concatCss('main.css'))
+            .pipe(cleanCSS())
+            .pipe(rename({suffix: '.min'}))
             .pipe(gulp.dest("./assets/css"))
             .pipe(browserSync.stream());
     })
@@ -99,7 +115,7 @@ gulp.task("watch", function browserDev(done) {
             "assets/scss/**/*.scss",
             "!assets/scss/bootstrap/**"
         ],
-        gulp.series("css:minify", function cssBrowserReload(done) {
+        gulp.series("css:concat", function cssBrowserReload(done) {
             browserSync.reload();
             done(); //Async callback for completion.
         })
