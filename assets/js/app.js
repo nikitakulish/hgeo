@@ -200,7 +200,6 @@ function startClientsSlider() {
         autoplay: true,
         autoplaySpeed: 3000,
         accessibility: false,
-        lazyLoad: 'ondemand',
         responsive: [
             {
                 breakpoint: 991,
@@ -323,9 +322,38 @@ function loadMap()
     document.getElementsByTagName('head')[0].appendChild(script);
 }
 
+function google_maps_lazyload(api_key) {
+    'use strict'
+
+    if (api_key) {
+        var options = {
+            rootMargin: '400px',
+            threshold: 0
+        };
+
+        var map = document.getElementById('googleMap');
+
+        var observer = new IntersectionObserver(
+            function(entries, observer) {
+                var isIntersecting = typeof entries[0].isIntersecting === 'boolean' ? entries[0].isIntersecting : entries[0].intersectionRatio > 0
+                if (isIntersecting) {
+                    loadjs('https://maps.googleapis.com/maps/api/js?region=PL&callback=initMap&key=' + api_key )
+                    observer.unobserve(map)
+                }
+            },
+            options
+        );
+
+        observer.observe(map)
+    }
+}
+
+
+
 $(window).on('load', function () {
     $('.loader-wrapper').hide();
-    loadMap();
+    // loadMap();
+    google_maps_lazyload("AIzaSyC4E7we2d2Emb_le7XWw_aHGPOaTJiPCHU");
 });
 
 $("document").ready(function () {

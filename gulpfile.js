@@ -58,10 +58,13 @@ gulp.task(
 // Minify Js
 gulp.task('js:minify', function () {
     return streamqueue({ objectMode: true },
+        gulp.src('./assets/js/loadjs.min.js'),
+        gulp.src('./assets/js/intersection-observer.js'),
         gulp.src('./assets/js/jquery-3.5.0.min.js'),
         gulp.src('./assets/js/jquery-ui.min.js'),
         gulp.src('./assets/js/bootstrap.min.js'),
         gulp.src('./assets/js/slick.min.js'),
+        gulp.src('./assets/js/lazysizes.min.js'),
         gulp.src('./assets/js/app.js')
     ).pipe(concat('main.js'))
         .pipe(uglify())
