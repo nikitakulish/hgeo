@@ -24,7 +24,7 @@
     height: 72px;
     background-color: $main-dark;
 
-    img {
+    svg {
       margin-right: 30px;
       height: 43px;
     }
@@ -86,7 +86,7 @@
           text-decoration: none;
           transition: 0.2s all ease-out;
 
-          img {
+          svg {
             width: 29px;
             height: 29px;
             margin-right: 5px;
@@ -366,7 +366,7 @@
     transition: 0.4s all ease-out;
     z-index: 2;
 
-    img {
+    svg {
       height: 52px;
       transition: 0.2s all ease-out;
     }
@@ -425,7 +425,7 @@
     }
 
     &:hover {
-      img {
+      svg {
         margin-top: -80px;
       }
 
@@ -1490,7 +1490,7 @@
     .logo-block {
       padding: 0 10px;
 
-      img {
+      svg {
         width: 100%;
         height: auto;
         margin: 0;
@@ -1940,7 +1940,7 @@
     .logo-block {
       padding: 0 10px;
 
-      img {
+      svg {
         width: 100%;
         height: auto;
         margin: 0;

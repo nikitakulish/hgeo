@@ -10253,7 +10253,7 @@ body.modal-open {
   background-color: #0D164D;
 }
 
-.header-menu .logo-block img {
+.header-menu .logo-block svg {
   margin-right: 30px;
   height: 43px;
 }
@@ -10318,7 +10318,7 @@ body.modal-open {
   transition: 0.2s all ease-out;
 }
 
-.header-menu .menu-block .menu .phone-link a img {
+.header-menu .menu-block .menu .phone-link a svg {
   width: 29px;
   height: 29px;
   margin-right: 5px;
@@ -10601,7 +10601,7 @@ body.modal-open {
   z-index: 2;
 }
 
-.offers .offer-item img {
+.offers .offer-item svg {
   height: 52px;
   -webkit-transition: 0.2s all ease-out;
   transition: 0.2s all ease-out;
@@ -10658,7 +10658,7 @@ body.modal-open {
   padding-right: 60px;
 }
 
-.offers .offer-item:hover img {
+.offers .offer-item:hover svg {
   margin-top: -80px;
 }
 
@@ -11721,7 +11721,7 @@ body.modal-open {
   .header-menu .logo-block {
     padding: 0 10px;
   }
-  .header-menu .logo-block img {
+  .header-menu .logo-block svg {
     width: 100%;
     height: auto;
     margin: 0;
@@ -12067,7 +12067,7 @@ body.modal-open {
   .header-menu .logo-block {
     padding: 0 10px;
   }
-  .header-menu .logo-block img {
+  .header-menu .logo-block svg {
     width: 100%;
     height: auto;
     margin: 0;

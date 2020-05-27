@@ -174,7 +174,6 @@ function startBannerSlider() {
         dots: false,
         arrows: false,
         swipe: false,
-        infinite: false,
         lazyLoad: 'ondemand'
     });
     $('.banner-quote').slick({
@@ -324,19 +323,20 @@ function google_maps_lazyload(api_key) {
         };
 
         var map = document.getElementById('googleMap');
+        if(map) {
+            var observer = new IntersectionObserver(
+                function(entries, observer) {
+                    var isIntersecting = typeof entries[0].isIntersecting === 'boolean' ? entries[0].isIntersecting : entries[0].intersectionRatio > 0
+                    if (isIntersecting) {
+                        loadjs('https://maps.googleapis.com/maps/api/js?region=PL&callback=initMap&key=' + api_key )
+                        observer.unobserve(map)
+                    }
+                },
+                options
+            );
 
-        var observer = new IntersectionObserver(
-            function(entries, observer) {
-                var isIntersecting = typeof entries[0].isIntersecting === 'boolean' ? entries[0].isIntersecting : entries[0].intersectionRatio > 0
-                if (isIntersecting) {
-                    loadjs('https://maps.googleapis.com/maps/api/js?region=PL&callback=initMap&key=' + api_key )
-                    observer.unobserve(map)
-                }
-            },
-            options
-        );
-
-        observer.observe(map)
+            observer.observe(map)
+        }
     }
 }
 
@@ -355,7 +355,21 @@ $("document").ready(function () {
     startClientsSlider();
     startProjectsSlider();
 
-    $(".link a, .to-top").bind('click', function (event) {
+    $(".link a").bind('click', function (event) {
+        if (document.location.pathname === '/' || document.location.pathname.indexOf('index') >-1 ) {
+            event.preventDefault();
+            var $anchor = $(this);
+            if(navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top
+                }, 600, 'easeOutQuad');
+            }
+        }
+    });
+
+    $(".to-top").bind('click', function (event) {
         event.preventDefault();
         var $anchor = $(this);
         if(navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
