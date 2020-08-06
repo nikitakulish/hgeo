@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+
+ErrorDocument 400 /errordoc/400.html
+ErrorDocument 401 /errordoc/401.html
+ErrorDocument 404 /errordoc/404.html
+ErrorDocument 500 /errordoc/500.html

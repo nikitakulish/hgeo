@@ -127,7 +127,7 @@ function initMap() {
 
     // DODATKOWE ELEMENTY NA MAPIE
     var iconBase = {
-        url: "./assets/img/map-pin.png", // url
+        url: "http://www.horyzontgeodezja.pl/assets/img/map-pin.png", // url
         scaledSize: new google.maps.Size(50, 50),
     };
     var marker = new google.maps.Marker({           // DODAWANIE MARKERA
@@ -340,6 +340,33 @@ function google_maps_lazyload(api_key) {
     }
 }
 
+function toggleMainMobileMenu() {
+    $('#nav-icon').toggleClass('open');
+    $('.burger-menu').toggleClass('open');
+    $('.main-mobile-menu').toggleClass('open');
+    $('.mobile-menu-block').toggleClass('open');
+    $('body').toggleClass('stop-scrolling')
+}
+
+function stickyMenu() {
+    var lastScrollTop = 0;
+
+    window.addEventListener("scroll", function(){
+        var st = window.pageYOffset || document.documentElement.scrollTop;
+        if (st > lastScrollTop){
+            if(st > 80) {
+                $('.header-menu').removeClass('scrolled-up');
+                $('.header-menu').addClass('scrolled-down');
+            }
+        } else {
+            if(st < $(document).height() - $(window).height()) {
+                $('.header-menu').removeClass('scrolled-down');
+                $('.header-menu').addClass('scrolled-up');
+            }
+        }
+        lastScrollTop = st;
+    }, false);
+}
 
 
 $(window).on('load', function () {
@@ -354,13 +381,15 @@ $("document").ready(function () {
     startBannerSlider();
     startClientsSlider();
     startProjectsSlider();
+    stickyMenu();
 
     $(".link a").bind('click', function (event) {
         if (document.location.pathname === '/' || document.location.pathname.indexOf('index') >-1 ) {
             event.preventDefault();
             var $anchor = $(this);
             if(navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                window.scrollTo({ top: $($anchor.attr('href')).offset().top, behavior: 'smooth' });
+                toggleMainMobileMenu();
             } else {
                 $('html, body').stop().animate({
                     scrollTop: $($anchor.attr('href')).offset().top
@@ -371,14 +400,7 @@ $("document").ready(function () {
 
     $(".to-top").bind('click', function (event) {
         event.preventDefault();
-        var $anchor = $(this);
-        if(navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        } else {
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top
-            }, 600, 'easeOutQuad');
-        }
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
     $(".lang a").bind('click', function (event) {
@@ -418,7 +440,11 @@ $("document").ready(function () {
             data: dataString,
             cache: false,
             success: function(){
-                $("#mailresult").html("Twoja wiadomość została wysłana");
+                if($(location).attr('href').indexOf('/en/') >= 0) {
+                    $("#mailresult").html("Your message has been sent");
+                } else {
+                    $("#mailresult").html("Twoja wiadomość została wysłana");
+                }
                 document.getElementById("contact-form").reset();
                 setTimeout(function(){
                     $("#mailresult").html("");
@@ -430,5 +456,8 @@ $("document").ready(function () {
     $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
         $(this).toggleClass('open');
         $('.mobile-menu').toggleClass('open');
+    });
+    $('#nav-icon').click(function(){
+        toggleMainMobileMenu();
     });
 });

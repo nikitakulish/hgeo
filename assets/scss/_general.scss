@@ -22,6 +22,8 @@
 //==================================================
 
 body {
+  padding-top: 72px;
+  
   &.modal-open {
     padding: 0 !important;
     overflow: hidden !important;
@@ -30,6 +32,11 @@ body {
 
 * {
   outline: none !important;
+}
+
+.stop-scrolling {
+  height: 100vh;
+  overflow: hidden;
 }
 
 .container {

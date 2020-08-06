@@ -14,8 +14,25 @@
 //==================================================
 
 .header-menu {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
   height: 72px;
   background-color: $main-dark;
+  transition: all 0.4s ease-in-out;
+  transform: translateY(0);
+
+  &.scrolled-up {
+    transform: translateY(0) !important;
+    box-shadow: 0 1px 3px rgba(0, 18, 44, .15);
+  }
+
+  &.scrolled-down {
+    transform: translateY(-100%) !important;
+  }
 
   .logo-block {
     display: flex;
@@ -70,6 +87,10 @@
             color: $menu-hover;
           }
         }
+      }
+
+      .lang-item, .mobile-phone-link {
+        display: none;
       }
 
       .phone-link {
@@ -169,6 +190,9 @@
         transform: translateY(0);
       }
     }
+  }
+  .mobile-menu-block {
+    display: none;
   }
 }
 
@@ -697,6 +721,12 @@
       color: $main-font;
       margin-top: 18px;
       transition: 0.3s all ease-out;
+
+      a {
+        font-size: 18px;
+        font-family: 'BioSansSemiBold', serif;
+        color: $main-font;
+      }
     }
 
     p {
@@ -706,7 +736,7 @@
       margin-top: 11px;
     }
 
-    a {
+    .offer-link {
       position: absolute;
       display: inline-block;
       color: $main-font;
@@ -753,8 +783,14 @@
         margin-top: -10px;
       }
 
-      a {
+      .offer-link {
         visibility: visible;
+      }
+    }
+
+    &.reverse {
+      .offer-link {
+        margin-top: 40px;
       }
     }
   }
@@ -1266,9 +1302,19 @@
     padding-left: 40px;
     background-color: white;
 
+    a {
+      text-decoration: none !important;
+    }
+
+    svg {
+      display: inline-block;
+      width: 120px;
+    }
+
     span {
-      display: block;
+      display: inline-block;
       padding: 40px 0;
+      margin-left: 40px;
       color: $contact-font;
       font-size: 14px;
       font-family: 'BioSansRegular', serif;
@@ -1306,6 +1352,27 @@
     &:before {
       width: 100%;
     }
+  }
+}
+
+
+// ERRORS
+//=================================================
+
+.page-error {
+  text-align: center;
+
+  svg {
+    width: 80%;
+    max-width: 250px;
+    margin-top: 100px;
+  }
+
+  h3 {
+    font-size: 26px;
+    font-family: BioSansSemiBold, serif;
+    line-height: 32px;
+    margin-top: 40px;
   }
 }
 
@@ -1835,21 +1902,136 @@
     }
 
     .menu-block {
-      .menu {
-        .link {
-          display: none;
-        }
+      display: none;
+    }
 
-        .lang {
-          margin: 0 0 0 10px;
+    .mobile-menu-block {
+      display: block;
+      position: absolute;
+      width: 65vw;
+      height: 72px;
+      top: 0;
+      right: 0;
+      text-align: right;
+      background-color: white;
 
-          a {
-            padding: 0 10px;
+      .phone-link {
+        height: 72px;
+        float: left;
+        margin-left: 10px;
+
+        a {
+          display: block;
+          color: $main-font;
+          text-align: left;
+          font-size: 16px;
+          font-family: 'BioSansRegular', serif;
+          line-height: 72px;
+          text-decoration: none;
+          transition: 0.2s all ease-out;
+
+          svg {
+            width: 29px;
+            height: 29px;
+            margin-right: 5px;
           }
         }
 
-        .phone-link {
-          margin-left: 10px;
+        &:hover {
+          a {
+            color: $menu-hover;
+          }
+        }
+      }
+
+      .burger-menu {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        right: 0;
+        width: 55px;
+        height: 100%;
+        background-color: $main-green;
+
+        button {
+          box-shadow: none;
+          border: none;
+          background: transparent;
+        }
+
+        &.open {
+          z-index: 999;
+        }
+      }
+
+      .main-mobile-menu {
+        position: absolute;
+        width: 60vw;
+        min-width: 280px;
+        height: calc(100vh + 72px);
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background-color: rgba($sub-dark, 0.95);
+        padding-top: 70px;
+        transform: translateX(100%);
+        transition: all 0.4s ease;
+
+        .link {
+          display: block;
+          float: unset;
+          margin-bottom: 20px;
+          text-align: left;
+
+          a {
+            color: rgba(white, 0.9);
+            font-size: 28px;
+            text-align: left;
+          }
+
+          &:nth-child(4) {
+            margin-bottom: 40px;
+          }
+        }
+
+        .link-lang {
+          display: block;
+          float: unset;
+          margin-bottom: 20px;
+          text-align: left;
+
+          a {
+            font-size: 20px;
+            color: rgba(white, 0.9);
+            text-align: left;
+
+            img {
+              width: 20px;
+              margin-right: 20px;
+              margin-bottom: 2px;
+            }
+          }
+        }
+      }
+
+      &.open {
+        .main-mobile-menu {
+          transform: translateX(0);
+        }
+        &:after {
+          content: "";
+          display: block;
+          position: fixed;
+          width: 100vw;
+          height: 100vh;
+          background-color: rgba($sub-dark, 0.5);
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
         }
       }
     }
@@ -1917,10 +2099,12 @@
 
   .offers-menu {
     height: 55px;
+
     h1 {
       line-height: 55px;
       padding-left: 15px;
     }
+
     #nav-icon2 {
       display: block;
     }
@@ -1931,18 +2115,22 @@
       padding-right: 15px;
       padding-left: 0;
     }
+
     .services-menu {
       display: none;
     }
-    .services-wrapper{
+
+    .services-wrapper {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       min-height: calc(100vh - 127px);
+
       .services-slider {
         .service-item {
           padding-right: 0;
           min-height: unset;
+
           .service-img {
             display: none;
           }
@@ -2267,6 +2455,7 @@
         .preview {
           width: 100% !important;
           height: 250px !important;
+          margin-top: calc(50vh - 200px);
 
           .preview-img img {
             width: 100% !important;
@@ -2314,6 +2503,18 @@
   }
 
   .footer {
+    .container {
+      svg {
+        margin-top: 20px;
+      }
+
+      span {
+        display: block;
+        padding: 20px 0 !important;
+        margin-left: 0 !important;
+      }
+    }
+
     .to-top {
       right: 20px;
     }
